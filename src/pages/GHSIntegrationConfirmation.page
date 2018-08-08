@@ -1,0 +1,15 @@
+<apex:page showHeader="true" sidebar="true" >
+    <apex:form id="form" >
+        <br/>
+        <apex:pageBlock title="Reclaim Process Confirmation" >
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="OK" style="width:60px;" reRender="form" action="{!reclaimProcess}"/>
+                <apex:commandButton value="Cancel" style="width:60px;" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+            Will be processed  complaint record(s) which include   reclaim record(s). 
+            <br/>
+            <a href="">Link</a> to Report.
+        </apex:pageBlock>
+        <apex:pageMessages id="pageMessages"  />
+    </apex:form>
+</apex:page>
