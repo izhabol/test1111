@@ -143,6 +143,29 @@
     </types>
     <types>
         <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>AccountQuery-1</members>
+        <members>AddProjectChatter-1</members>
+        <members>Advertise_New_Property</members>
+        <members>Conversation-1</members>
+        <members>CreateLead-1</members>
+        <members>Echo-1</members>
+        <members>EchoDate-1</members>
+        <members>EchoNumber-1</members>
+        <members>HelloFlow-1</members>
+        <members>HelloUser-1</members>
+        <members>NewsSummary-1</members>
+        <members>Opportunity_Status_Change</members>
+        <members>Post_Price_Changes_to_Slack</members>
+        <members>Price_Change_Push_Notification</members>
+        <members>VacationRequest-1</members>
+        <members>WhoAmI-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>GlobalValueSet</name>
     </types>
     <types>

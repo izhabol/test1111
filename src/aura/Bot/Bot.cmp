@@ -7,7 +7,8 @@
 	<aura:attribute name="files" type="Object[]"/>
     <div style="{#'height: '+v.height}" class="slds-p-vertical--x-small">
 		<div aura:id="content" class="content">
-<!--!-->
+        //testets
+<!-- ggggghhh   !-->
 	        <aura:iteration items="{!v.messages}" var="message">
                 <lightning:layout >
                     <lightning:layoutitem padding="around-small">

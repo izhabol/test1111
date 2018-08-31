@@ -1,0 +1,2666 @@
+20.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,FINE;WAVE,INFO;WORKFLOW,INFO
+07:19:30.2 (2570489)|USER_INFO|[EXTERNAL]|005f2000007Okk1|dev@pee-4.dev.welkinsuite.com.sb7onlyqa|Pacific Standard Time|GMT-07:00
+07:19:30.2 (2639495)|EXECUTION_STARTED
+07:19:30.2 (2647091)|CODE_UNIT_STARTED|[EXTERNAL]|01pf2000000nvoF|ActionPlanObjectTriggerTest.testAccountTrigger()
+07:19:30.2 (3815246)|VARIABLE_SCOPE_BEGIN|[35]|ActionPlanObjectTriggerTest.isTest|Boolean|false|true
+07:19:30.2 (4065304)|HEAP_ALLOCATE|[72]|Bytes:3
+07:19:30.2 (4129980)|HEAP_ALLOCATE|[77]|Bytes:152
+07:19:30.2 (4172602)|HEAP_ALLOCATE|[342]|Bytes:408
+07:19:30.2 (4218617)|HEAP_ALLOCATE|[355]|Bytes:408
+07:19:30.2 (4259285)|HEAP_ALLOCATE|[467]|Bytes:48
+07:19:30.2 (4312931)|HEAP_ALLOCATE|[139]|Bytes:6
+07:19:30.2 (4358458)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:630
+07:19:30.2 (4390278)|METHOD_ENTRY|[33]|01pf2000000nvoF|ActionPlanObjectTriggerTest.ActionPlanObjectTriggerTest()
+07:19:30.2 (4405060)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (4416950)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (4461487)|HEAP_ALLOCATE|[50]|Bytes:5
+07:19:30.2 (4510265)|HEAP_ALLOCATE|[56]|Bytes:5
+07:19:30.2 (4540274)|HEAP_ALLOCATE|[64]|Bytes:7
+07:19:30.2 (5062906)|SYSTEM_MODE_ENTER|false
+07:19:30.2 (5090783)|HEAP_ALLOCATE|[35]|Bytes:5
+07:19:30.2 (5105460)|STATEMENT_EXECUTE|[35]
+07:19:30.2 (5118276)|HEAP_ALLOCATE|[35]|Bytes:5
+07:19:30.2 (5164410)|VARIABLE_ASSIGNMENT|[35]|ActionPlanObjectTriggerTest.isTest|false
+07:19:30.2 (5182391)|SYSTEM_MODE_EXIT|false
+07:19:30.2 (5202843)|METHOD_EXIT|[33]|ActionPlanObjectTriggerTest
+07:19:30.2 (5273729)|SYSTEM_MODE_ENTER|false
+07:19:30.2 (5290703)|HEAP_ALLOCATE|[39]|Bytes:5
+07:19:30.2 (5302834)|STATEMENT_EXECUTE|[37]
+07:19:30.2 (5306506)|STATEMENT_EXECUTE|[39]
+07:19:30.2 (7223545)|HEAP_ALLOCATE|[39]|Bytes:396
+07:19:30.2 (7247131)|HEAP_ALLOCATE|[39]|Bytes:113
+07:19:30.2 (7264219)|HEAP_ALLOCATE|[39]|Bytes:15
+07:19:30.2 (7301894)|METHOD_ENTRY|[33]|01pf2000000nvoW|ActionPlansTestUtilities.ActionPlansTestUtilities()
+07:19:30.2 (7315941)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (7324483)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (7337754)|HEAP_ALLOCATE|[39]|Bytes:5
+07:19:30.2 (7361780)|METHOD_EXIT|[33]|ActionPlansTestUtilities
+07:19:30.2 (7380513)|HEAP_ALLOCATE|[39]|Bytes:76
+07:19:30.2 (7411417)|CONSTRUCTOR_ENTRY|[39]|01pf2000000nvoW|<init>()|ActionPlansTestUtilities
+07:19:30.2 (7463089)|VARIABLE_SCOPE_BEGIN|[61]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (8533858)|VARIABLE_ASSIGNMENT|[61]|this|{}|0x715647e5
+07:19:30.2 (8573342)|HEAP_ALLOCATE|[62]|Bytes:5
+07:19:30.2 (8586837)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (8597174)|HEAP_ALLOCATE|[62]|Bytes:5
+07:19:30.2 (8608439)|STATEMENT_EXECUTE|[38]
+07:19:30.2 (8611637)|STATEMENT_EXECUTE|[39]
+07:19:30.2 (8614173)|STATEMENT_EXECUTE|[40]
+07:19:30.2 (8616663)|STATEMENT_EXECUTE|[41]
+07:19:30.2 (8619377)|STATEMENT_EXECUTE|[44]
+07:19:30.2 (8622319)|STATEMENT_EXECUTE|[45]
+07:19:30.2 (8624936)|STATEMENT_EXECUTE|[46]
+07:19:30.2 (8627910)|STATEMENT_EXECUTE|[48]
+07:19:30.2 (8630996)|STATEMENT_EXECUTE|[49]
+07:19:30.2 (8635015)|STATEMENT_EXECUTE|[50]
+07:19:30.2 (8637932)|STATEMENT_EXECUTE|[51]
+07:19:30.2 (8640357)|STATEMENT_EXECUTE|[52]
+07:19:30.2 (8642912)|STATEMENT_EXECUTE|[53]
+07:19:30.2 (8645483)|STATEMENT_EXECUTE|[55]
+07:19:30.2 (8647918)|STATEMENT_EXECUTE|[56]
+07:19:30.2 (8650400)|STATEMENT_EXECUTE|[57]
+07:19:30.2 (8652791)|STATEMENT_EXECUTE|[58]
+07:19:30.2 (8655361)|STATEMENT_EXECUTE|[59]
+07:19:30.2 (8676891)|HEAP_ALLOCATE|[62]|Bytes:6
+07:19:30.2 (8760309)|STATEMENT_EXECUTE|[61]
+07:19:30.2 (8765731)|STATEMENT_EXECUTE|[62]
+07:19:30.2 (8773062)|HEAP_ALLOCATE|[62]|Bytes:1720
+07:19:30.2 (8814437)|SYSTEM_METHOD_ENTRY|[62]|ActionPlansTestUtilities.__sfdc_xmlImport(String)
+07:19:30.2 (8908260)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x715647e5
+07:19:30.2 (8954207)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"<?xml version=\"1.0\"? (1700 more) ..."
+07:19:30.2 (8995082)|VARIABLE_ASSIGNMENT|[55]|this.xmlImport|"<?xml version=\"1.0\"? (1700 more) ..."|0x715647e5
+07:19:30.2 (9020215)|SYSTEM_METHOD_EXIT|[62]|ActionPlansTestUtilities.__sfdc_xmlImport(String)
+07:19:30.2 (9035820)|STATEMENT_EXECUTE|[63]
+07:19:30.2 (9042519)|HEAP_ALLOCATE|[63]|Bytes:1657
+07:19:30.2 (9069432)|SYSTEM_METHOD_ENTRY|[63]|ActionPlansTestUtilities.__sfdc_xmlImportWrongAPTemplate(String)
+07:19:30.2 (9162306)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ..."}|0x715647e5
+07:19:30.2 (9192469)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"<?xml version=\"1.0\"? (1637 more) ..."
+07:19:30.2 (9225318)|VARIABLE_ASSIGNMENT|[56]|this.xmlImportWrongAPTemplate|"<?xml version=\"1.0\"? (1637 more) ..."|0x715647e5
+07:19:30.2 (9249919)|SYSTEM_METHOD_EXIT|[63]|ActionPlansTestUtilities.__sfdc_xmlImportWrongAPTemplate(String)
+07:19:30.2 (9263445)|STATEMENT_EXECUTE|[64]
+07:19:30.2 (9275985)|HEAP_ALLOCATE|[64]|Bytes:1690
+07:19:30.2 (9304148)|SYSTEM_METHOD_ENTRY|[64]|ActionPlansTestUtilities.__sfdc_xmlImportWrongAPTask(String)
+07:19:30.2 (9398423)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ..."}|0x715647e5
+07:19:30.2 (9430840)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"<?xml version=\"1.0\"? (1670 more) ..."
+07:19:30.2 (9463770)|VARIABLE_ASSIGNMENT|[57]|this.xmlImportWrongAPTask|"<?xml version=\"1.0\"? (1670 more) ..."|0x715647e5
+07:19:30.2 (9486571)|SYSTEM_METHOD_EXIT|[64]|ActionPlansTestUtilities.__sfdc_xmlImportWrongAPTask(String)
+07:19:30.2 (9499715)|STATEMENT_EXECUTE|[65]
+07:19:30.2 (9506415)|HEAP_ALLOCATE|[65]|Bytes:208
+07:19:30.2 (9531164)|SYSTEM_METHOD_ENTRY|[65]|ActionPlansTestUtilities.__sfdc_xmlImportWrongMetaData(String)
+07:19:30.2 (9629325)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ..."}|0x715647e5
+07:19:30.2 (9661555)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"<?xml version=\"1.0\"? (188 more) ..."
+07:19:30.2 (9694903)|VARIABLE_ASSIGNMENT|[58]|this.xmlImportWrongMetaData|"<?xml version=\"1.0\"? (188 more) ..."|0x715647e5
+07:19:30.2 (9723558)|SYSTEM_METHOD_EXIT|[65]|ActionPlansTestUtilities.__sfdc_xmlImportWrongMetaData(String)
+07:19:30.2 (9737242)|STATEMENT_EXECUTE|[66]
+07:19:30.2 (9744529)|HEAP_ALLOCATE|[66]|Bytes:180
+07:19:30.2 (9771395)|SYSTEM_METHOD_ENTRY|[66]|ActionPlansTestUtilities.__sfdc_xmlImportEmptyMetaData(String)
+07:19:30.2 (9872746)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (9907462)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"<?xml version=\"1.0\"? (160 more) ..."
+07:19:30.2 (9973397)|VARIABLE_ASSIGNMENT|[59]|this.xmlImportEmptyMetaData|"<?xml version=\"1.0\"? (160 more) ..."|0x715647e5
+07:19:30.2 (9999019)|SYSTEM_METHOD_EXIT|[66]|ActionPlansTestUtilities.__sfdc_xmlImportEmptyMetaData(String)
+07:19:30.2 (10027310)|CONSTRUCTOR_EXIT|[39]|01pf2000000nvoW|<init>()|ActionPlansTestUtilities
+07:19:30.2 (10049130)|VARIABLE_SCOPE_BEGIN|[39]|ge|ActionPlansTestUtilities|true|false
+07:19:30.2 (10140293)|VARIABLE_ASSIGNMENT|[39]|ge|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (10160568)|STATEMENT_EXECUTE|[40]
+07:19:30.2 (10168465)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:30.2 (10207754)|METHOD_ENTRY|[40]|01pf2000000nvoW|ActionPlansTestUtilities.createNewActionPlan(String, Integer)
+07:19:30.2 (10249574)|VARIABLE_SCOPE_BEGIN|[272]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (10338634)|VARIABLE_ASSIGNMENT|[272]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (10364265)|VARIABLE_SCOPE_BEGIN|[272]|relatedObject|String|false|false
+07:19:30.2 (10387111)|VARIABLE_ASSIGNMENT|[272]|relatedObject|"accounts"
+07:19:30.2 (10403158)|VARIABLE_SCOPE_BEGIN|[272]|numTasks|Integer|false|false
+07:19:30.2 (10423798)|VARIABLE_ASSIGNMENT|[272]|numTasks|1
+07:19:30.2 (10465272)|HEAP_ALLOCATE|[274]|Bytes:5
+07:19:30.2 (10480491)|STATEMENT_EXECUTE|[272]
+07:19:30.2 (10484454)|STATEMENT_EXECUTE|[274]
+07:19:30.2 (10521016)|HEAP_ALLOCATE|[274]|Bytes:4
+07:19:30.2 (10695350)|VARIABLE_SCOPE_BEGIN|[274]|newActionPlan|ActionPlan__c|true|false
+07:19:30.2 (10730212)|VARIABLE_ASSIGNMENT|[274]|newActionPlan|{}|0x1b38f50d
+07:19:30.2 (10744435)|STATEMENT_EXECUTE|[275]
+07:19:30.2 (10769172)|METHOD_ENTRY|[275]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (10802358)|VARIABLE_SCOPE_BEGIN|[74]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (10893697)|VARIABLE_ASSIGNMENT|[74]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (10940220)|HEAP_ALLOCATE|[76]|Bytes:5
+07:19:30.2 (10955540)|STATEMENT_EXECUTE|[74]
+07:19:30.2 (10959627)|STATEMENT_EXECUTE|[76]
+07:19:30.2 (10965861)|HEAP_ALLOCATE|[76]|Bytes:4
+07:19:30.2 (11043798)|VARIABLE_SCOPE_BEGIN|[2]|System.Math.E|Double|false|true
+07:19:30.2 (11062862)|VARIABLE_SCOPE_BEGIN|[3]|System.Math.PI|Double|false|true
+07:19:30.2 (11092445)|HEAP_ALLOCATE|[76]|Bytes:206
+07:19:30.2 (11121230)|SYSTEM_METHOD_ENTRY|[1]|Math.Math()
+07:19:30.2 (11132147)|STATEMENT_EXECUTE|[1]
+07:19:30.2 (11251019)|SYSTEM_METHOD_EXIT|[1]|Math
+07:19:30.2 (11279041)|METHOD_ENTRY|[76]||System.Math.random()
+07:19:30.2 (11348485)|METHOD_EXIT|[76]||System.Math.random()
+07:19:30.2 (11420911)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (11482011)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (11497412)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (11529412)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (11576475)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (11599114)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (11638015)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (11678609)|SYSTEM_METHOD_ENTRY|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (11740573)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (11754260)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (11784283)|SYSTEM_METHOD_EXIT|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (11821351)|SYSTEM_METHOD_ENTRY|[76]|Decimal.doubleValue()
+07:19:30.2 (11906347)|HEAP_ALLOCATE|[76]|Bytes:12
+07:19:30.2 (11945024)|SYSTEM_METHOD_EXIT|[76]|Decimal.doubleValue()
+07:19:30.2 (11973140)|METHOD_ENTRY|[76]||System.Math.rint(Double)
+07:19:30.2 (12085973)|METHOD_EXIT|[76]||System.Math.rint(Double)
+07:19:30.2 (12151576)|SYSTEM_METHOD_ENTRY|[76]|String.valueOf(Object)
+07:19:30.2 (12172670)|HEAP_ALLOCATE|[76]|Bytes:7
+07:19:30.2 (12209594)|SYSTEM_METHOD_EXIT|[76]|String.valueOf(Object)
+07:19:30.2 (12239982)|HEAP_ALLOCATE|[76]|Bytes:11
+07:19:30.2 (12258952)|VARIABLE_SCOPE_BEGIN|[76]|ret|String|false|false
+07:19:30.2 (12286185)|VARIABLE_ASSIGNMENT|[76]|ret|"word15355.0"
+07:19:30.2 (12298158)|STATEMENT_EXECUTE|[78]
+07:19:30.2 (12314407)|METHOD_EXIT|[275]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (15366069)|VARIABLE_ASSIGNMENT|[275]|this.Name|"word15355.0"|0x1b38f50d
+07:19:30.2 (15388780)|STATEMENT_EXECUTE|[276]
+07:19:30.2 (15425049)|SYSTEM_METHOD_ENTRY|[276]|com.salesforce.api.interop.apex.bcl.DateMethods.today()
+07:19:30.2 (15500187)|HEAP_ALLOCATE|[276]|Bytes:4
+07:19:30.2 (15525584)|SYSTEM_METHOD_EXIT|[276]|com.salesforce.api.interop.apex.bcl.DateMethods.today()
+07:19:30.2 (15651091)|VARIABLE_ASSIGNMENT|[276]|this.StartDate__c|"2018-08-20T00:00:00.000Z"|0x1b38f50d
+07:19:30.2 (15668204)|STATEMENT_EXECUTE|[277]
+07:19:30.2 (15753443)|HEAP_ALLOCATE|[277]|Bytes:89
+07:19:30.2 (15794275)|SYSTEM_METHOD_ENTRY|[1]|UserInfo.UserInfo()
+07:19:30.2 (15806103)|STATEMENT_EXECUTE|[1]
+07:19:30.2 (15823223)|SYSTEM_METHOD_EXIT|[1]|UserInfo
+07:19:30.2 (15847071)|METHOD_ENTRY|[277]||System.UserInfo.getUserId()
+07:19:30.2 (15952102)|METHOD_EXIT|[277]||System.UserInfo.getUserId()
+07:19:30.2 (15982336)|HEAP_ALLOCATE|[277]|Bytes:4
+07:19:30.2 (16054269)|VARIABLE_ASSIGNMENT|[277]|this.OwnerId|"005f2000007Okk1AAC"|0x1b38f50d
+07:19:30.2 (16107789)|SYSTEM_METHOD_ENTRY|[279]|String.equalsIgnoreCase(String)
+07:19:30.2 (16162316)|SYSTEM_METHOD_EXIT|[279]|String.equalsIgnoreCase(String)
+07:19:30.2 (16181071)|STATEMENT_EXECUTE|[279]
+07:19:30.2 (16184983)|STATEMENT_EXECUTE|[280]
+07:19:30.2 (16215279)|METHOD_ENTRY|[280]|01pf2000000nvoW|ActionPlansTestUtilities.createNewAccount()
+07:19:30.2 (16256873)|VARIABLE_SCOPE_BEGIN|[123]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (16386294)|VARIABLE_ASSIGNMENT|[123]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (16433182)|HEAP_ALLOCATE|[125]|Bytes:5
+07:19:30.2 (16448271)|STATEMENT_EXECUTE|[123]
+07:19:30.2 (16451917)|STATEMENT_EXECUTE|[125]
+07:19:30.2 (16489471)|HEAP_ALLOCATE|[125]|Bytes:4
+07:19:30.2 (16680551)|VARIABLE_SCOPE_BEGIN|[125]|newAccount|Account|true|false
+07:19:30.2 (16739882)|VARIABLE_ASSIGNMENT|[125]|newAccount|{}|0x49ad1af3
+07:19:30.2 (16755602)|STATEMENT_EXECUTE|[126]
+07:19:30.2 (16780462)|METHOD_ENTRY|[126]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (16812391)|VARIABLE_SCOPE_BEGIN|[74]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (16903696)|VARIABLE_ASSIGNMENT|[74]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (16950635)|HEAP_ALLOCATE|[76]|Bytes:5
+07:19:30.2 (16965182)|STATEMENT_EXECUTE|[74]
+07:19:30.2 (16968984)|STATEMENT_EXECUTE|[76]
+07:19:30.2 (16983937)|METHOD_ENTRY|[76]||System.Math.random()
+07:19:30.2 (17030930)|METHOD_EXIT|[76]||System.Math.random()
+07:19:30.2 (17074817)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (17107166)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (17142859)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (17185766)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (17207241)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (17240013)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (17275659)|SYSTEM_METHOD_ENTRY|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (17320571)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (17333539)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (17364433)|SYSTEM_METHOD_EXIT|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (17427574)|SYSTEM_METHOD_ENTRY|[76]|Decimal.doubleValue()
+07:19:30.2 (17492498)|HEAP_ALLOCATE|[76]|Bytes:12
+07:19:30.2 (17522592)|SYSTEM_METHOD_EXIT|[76]|Decimal.doubleValue()
+07:19:30.2 (17544874)|METHOD_ENTRY|[76]||System.Math.rint(Double)
+07:19:30.2 (17616909)|METHOD_EXIT|[76]||System.Math.rint(Double)
+07:19:30.2 (17662137)|SYSTEM_METHOD_ENTRY|[76]|String.valueOf(Object)
+07:19:30.2 (17682588)|HEAP_ALLOCATE|[76]|Bytes:7
+07:19:30.2 (17718764)|SYSTEM_METHOD_EXIT|[76]|String.valueOf(Object)
+07:19:30.2 (17742518)|HEAP_ALLOCATE|[76]|Bytes:11
+07:19:30.2 (17766159)|VARIABLE_SCOPE_BEGIN|[76]|ret|String|false|false
+07:19:30.2 (17793157)|VARIABLE_ASSIGNMENT|[76]|ret|"word55397.0"
+07:19:30.2 (17805880)|STATEMENT_EXECUTE|[78]
+07:19:30.2 (17825015)|METHOD_EXIT|[126]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (21317714)|VARIABLE_ASSIGNMENT|[126]|this.Name|"word55397.0"|0x49ad1af3
+07:19:30.2 (21337843)|STATEMENT_EXECUTE|[128]
+07:19:30.2 (21342390)|STATEMENT_EXECUTE|[128]
+07:19:30.2 (21345414)|STATEMENT_EXECUTE|[129]
+07:19:30.2 (21398103)|HEAP_ALLOCATE|[129]|Bytes:8
+07:19:30.2 (21415754)|DML_BEGIN|[129]|Op:Insert|Type:Account|Rows:1
+07:19:30.2 (21485808)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.49 (49842556)|ENTERING_MANAGED_PKG|MC4SF
+07:19:30.55 (55394289)|CUMULATIVE_LIMIT_USAGE
+07:19:30.55 (55394289)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.55 (55394289)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.55 (55394289)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:30.2 (61163525)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+07:19:30.2 (61187452)|DUPLICATE_DETECTION_BEGIN
+07:19:30.2 (62170758)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bmf2000000m3eB|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+07:19:30.2 (92096632)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+07:19:30.2 (92128832)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+07:19:30.2 (92311105)|DUPLICATE_DETECTION_END
+07:19:30.2 (92325489)|CODE_UNIT_FINISHED|DuplicateDetector
+07:19:30.132 (132026360)|ENTERING_MANAGED_PKG|rh2
+07:19:30.132 (134507914)|ENTERING_MANAGED_PKG|rh2
+07:19:30.132 (134614389)|ENTERING_MANAGED_PKG|rh2
+07:19:30.132 (134975336)|ENTERING_MANAGED_PKG|rh2
+07:19:30.132 (138731820)|ENTERING_MANAGED_PKG|rh2
+07:19:30.141 (141210606)|CUMULATIVE_LIMIT_USAGE
+07:19:30.141 (141210606)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.141 (141210606)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.141 (141210606)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:30.2 (144759545)|DML_END|[129]
+07:19:30.2 (144793574)|STATEMENT_EXECUTE|[136]
+07:19:30.2 (144811332)|METHOD_EXIT|[280]|01pf2000000nvoW|ActionPlansTestUtilities.createNewAccount()
+07:19:30.2 (144972448)|VARIABLE_ASSIGNMENT|[280]|this.Account__c|"0014C00000JVQnGQAX"|0x1b38f50d
+07:19:30.2 (144995286)|HEAP_ALLOCATE|[282]|Bytes:9
+07:19:30.2 (145042047)|SYSTEM_METHOD_ENTRY|[282]|String.equalsIgnoreCase(String)
+07:19:30.2 (145087364)|SYSTEM_METHOD_EXIT|[282]|String.equalsIgnoreCase(String)
+07:19:30.2 (145099503)|STATEMENT_EXECUTE|[282]
+07:19:30.2 (145105991)|HEAP_ALLOCATE|[285]|Bytes:5
+07:19:30.2 (145130080)|SYSTEM_METHOD_ENTRY|[285]|String.equalsIgnoreCase(String)
+07:19:30.2 (145162576)|SYSTEM_METHOD_EXIT|[285]|String.equalsIgnoreCase(String)
+07:19:30.2 (145173330)|STATEMENT_EXECUTE|[285]
+07:19:30.2 (145179216)|HEAP_ALLOCATE|[288]|Bytes:8
+07:19:30.2 (145202094)|SYSTEM_METHOD_ENTRY|[288]|String.equalsIgnoreCase(String)
+07:19:30.2 (145232901)|SYSTEM_METHOD_EXIT|[288]|String.equalsIgnoreCase(String)
+07:19:30.2 (145243386)|STATEMENT_EXECUTE|[288]
+07:19:30.2 (145248867)|HEAP_ALLOCATE|[291]|Bytes:9
+07:19:30.2 (145271660)|SYSTEM_METHOD_ENTRY|[291]|String.equalsIgnoreCase(String)
+07:19:30.2 (145301701)|SYSTEM_METHOD_EXIT|[291]|String.equalsIgnoreCase(String)
+07:19:30.2 (145311900)|STATEMENT_EXECUTE|[291]
+07:19:30.2 (145317409)|HEAP_ALLOCATE|[294]|Bytes:5
+07:19:30.2 (145340791)|SYSTEM_METHOD_ENTRY|[294]|String.equalsIgnoreCase(String)
+07:19:30.2 (145370427)|SYSTEM_METHOD_EXIT|[294]|String.equalsIgnoreCase(String)
+07:19:30.2 (145380821)|STATEMENT_EXECUTE|[294]
+07:19:30.2 (145386062)|HEAP_ALLOCATE|[297]|Bytes:12
+07:19:30.2 (145408306)|SYSTEM_METHOD_ENTRY|[297]|String.equalsIgnoreCase(String)
+07:19:30.2 (145439952)|SYSTEM_METHOD_EXIT|[297]|String.equalsIgnoreCase(String)
+07:19:30.2 (145452624)|STATEMENT_EXECUTE|[297]
+07:19:30.2 (145456032)|STATEMENT_EXECUTE|[303]
+07:19:30.2 (145458874)|STATEMENT_EXECUTE|[303]
+07:19:30.2 (145461940)|STATEMENT_EXECUTE|[304]
+07:19:30.2 (145493906)|HEAP_ALLOCATE|[304]|Bytes:8
+07:19:30.2 (145505710)|DML_BEGIN|[304]|Op:Insert|Type:ActionPlan__c|Rows:1
+07:19:30.2 (145554103)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (156489638)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:ActionPlan:new
+07:19:30.2 (156516693)|VALIDATION_RULE|03df2000000kIyX|Reference_Object_Can_not_be_null
+07:19:30.2 (156949109)|VALIDATION_FORMULA|AND(  
+OR( Lead__c == null,  Lead__c == '' ),
+OR( Account__c == null,  Account__c == '' ),
+OR( Contact__c == null,  Contact__c == '' ),
+OR( Opportunity__c == null,  Opportunity__c == '' ),
+OR( Case__c == null,  Case__c == '' ),
+OR( Contract__c == null,  Contract__c == '' ),
+OR( Campaign__c == null,  Campaign__c == '' )
+ )|Account__c=0014C00000JVQnG , Opportunity__c=null , Lead__c=null , Contract__c=null , Contact__c=null , Case__c=null , Campaign__c=null
+07:19:30.2 (156969505)|VALIDATION_PASS
+07:19:30.2 (157155584)|CODE_UNIT_FINISHED|Validation:ActionPlan:new
+07:19:30.2 (178229888)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORL|ActionPlanTrigger on ActionPlan trigger event AfterInsert|__sfdc_trigger/ActionPlanTrigger
+07:19:30.2 (178330631)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (178545095)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:30.2 (178569908)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:30.2 (178670589)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x491aed6a
+07:19:30.2 (178773240)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:30.2 (178794895)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:30.2 (178820466)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x491aed6a
+07:19:30.2 (178836416)|STATEMENT_EXECUTE|[1]
+07:19:30.2 (178842602)|STATEMENT_EXECUTE|[4]
+07:19:30.2 (178865764)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:30.2 (178918735)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>(Integer)
+07:19:30.2 (178961510)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>(Integer)
+07:19:30.2 (179036659)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x491aed6a
+07:19:30.2 (179047469)|STATEMENT_EXECUTE|[5]
+07:19:30.2 (179058070)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:30.2 (179077845)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>(Integer)
+07:19:30.2 (179100455)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>(Integer)
+07:19:30.2 (179137615)|VARIABLE_ASSIGNMENT|[5]|this.apttIds|[]|0x491aed6a
+07:19:30.2 (179149041)|STATEMENT_EXECUTE|[6]
+07:19:30.2 (179159716)|HEAP_ALLOCATE|[6]|Bytes:4
+07:19:30.2 (179174872)|SYSTEM_CONSTRUCTOR_ENTRY|[6]|<init>(Integer)
+07:19:30.2 (179199776)|SYSTEM_CONSTRUCTOR_EXIT|[6]|<init>(Integer)
+07:19:30.2 (179235388)|VARIABLE_ASSIGNMENT|[6]|this.taskIds|[]|0x491aed6a
+07:19:30.2 (179247362)|STATEMENT_EXECUTE|[7]
+07:19:30.2 (179267916)|HEAP_ALLOCATE|[7]|Bytes:4
+07:19:30.2 (179331090)|SYSTEM_CONSTRUCTOR_ENTRY|[7]|<init>()
+07:19:30.2 (179356648)|SYSTEM_CONSTRUCTOR_EXIT|[7]|<init>()
+07:19:30.2 (179383351)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (179400773)|VARIABLE_ASSIGNMENT|[7]|this.tasks|[]|0x491aed6a
+07:19:30.2 (179436328)|STATEMENT_EXECUTE|[10]
+07:19:30.2 (179450690)|STATEMENT_EXECUTE|[31]
+07:19:30.179 (179458586)|CUMULATIVE_LIMIT_USAGE
+07:19:30.179 (179458586)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.179 (179458586)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.179 (179458586)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:30.2 (180493509)|CODE_UNIT_FINISHED|ActionPlanTrigger on ActionPlan trigger event AfterInsert|__sfdc_trigger/ActionPlanTrigger
+07:19:30.2 (182852201)|DML_END|[304]
+07:19:30.2 (182892585)|STATEMENT_EXECUTE|[310]
+07:19:30.2 (182931051)|HEAP_ALLOCATE|[310]|Bytes:4
+07:19:30.2 (183093560)|VARIABLE_SCOPE_BEGIN|[310]|auxTask|APTaskTemplate__c|true|false
+07:19:30.2 (183124379)|VARIABLE_ASSIGNMENT|[310]|auxTask|{}|0x30d5d85
+07:19:30.2 (183133907)|STATEMENT_EXECUTE|[311]
+07:19:30.2 (183172059)|METHOD_ENTRY|[311]|01pf2000000nvoW|ActionPlansTestUtilities.createTestUser()
+07:19:30.2 (183203851)|VARIABLE_SCOPE_BEGIN|[86]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (183305914)|VARIABLE_ASSIGNMENT|[86]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (183357965)|HEAP_ALLOCATE|[87]|Bytes:5
+07:19:30.2 (183368310)|STATEMENT_EXECUTE|[86]
+07:19:30.2 (183377138)|HEAP_ALLOCATE|[87]|Bytes:64
+07:19:30.2 (183407011)|HEAP_ALLOCATE|[87]|Bytes:4
+07:19:30.2 (184557216)|SOQL_EXECUTE_BEGIN|[87]|Aggregations:0|SELECT Id, PermissionsModifyAllData, Name FROM Profile 
+07:19:30.2 (188667659)|SOQL_EXECUTE_END|[87]|Rows:24
+07:19:30.2 (188707769)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:100
+07:19:30.2 (188797274)|SYSTEM_METHOD_ENTRY|[87]|Database.QueryLocator.iterator()
+07:19:30.2 (189123104)|HEAP_ALLOCATE|[87]|Bytes:54
+07:19:30.2 (189144924)|HEAP_ALLOCATE|[87]|Bytes:8
+07:19:30.2 (189173218)|SYSTEM_METHOD_ENTRY|[7]|QueryLocatorIterator.QueryLocatorIterator()
+07:19:30.2 (189184213)|STATEMENT_EXECUTE|[7]
+07:19:30.2 (189200977)|SYSTEM_METHOD_EXIT|[7]|QueryLocatorIterator
+07:19:30.2 (189217921)|HEAP_ALLOCATE|[87]|Bytes:28
+07:19:30.2 (189329963)|HEAP_ALLOCATE|[87]|Bytes:100
+07:19:30.2 (189367885)|HEAP_ALLOCATE|[87]|Bytes:8
+07:19:30.2 (189380261)|HEAP_ALLOCATE|[87]|Bytes:8
+07:19:30.2 (189393517)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+07:19:30.2 (189441458)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x641515ec
+07:19:30.2 (189458165)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+07:19:30.2 (189487910)|VARIABLE_ASSIGNMENT|[15]|values|"List of size 24 too large to display"|0x6359d86f
+07:19:30.2 (189501936)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+07:19:30.2 (189534370)|VARIABLE_ASSIGNMENT|[15]|ql|{"query":"SELECT Id, Permissio (44 more) ..."}|0x21ce9f3c
+07:19:30.2 (189550027)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+07:19:30.2 (189570742)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|24
+07:19:30.2 (189582531)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+07:19:30.2 (189600068)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|49976
+07:19:30.2 (189717161)|HEAP_ALLOCATE|[87]|Bytes:28
+07:19:30.2 (189739884)|SYSTEM_METHOD_EXIT|[87]|Database.QueryLocator.iterator()
+07:19:30.2 (189769776)|METHOD_ENTRY|[87]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (189922096)|METHOD_EXIT|[87]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (189947010)|METHOD_ENTRY|[87]||Database.QueryLocatorIterator.next()
+07:19:30.2 (190153540)|METHOD_EXIT|[87]||Database.QueryLocatorIterator.next()
+07:19:30.2 (190176920)|VARIABLE_SCOPE_BEGIN|[87]|p|Profile|true|false
+07:19:30.2 (190219378)|VARIABLE_ASSIGNMENT|[87]|p|{"Id":"00ef2000001SF7VAAW","PermissionsModifyAllData":false,"Name":"CPQ Integration User"}|0x36800306
+07:19:30.2 (190234807)|STATEMENT_EXECUTE|[87]
+07:19:30.2 (190286177)|STATEMENT_EXECUTE|[88]
+07:19:30.2 (190302464)|METHOD_ENTRY|[87]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (190367023)|METHOD_EXIT|[87]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (190388271)|METHOD_ENTRY|[87]||Database.QueryLocatorIterator.next()
+07:19:30.2 (190535453)|METHOD_EXIT|[87]||Database.QueryLocatorIterator.next()
+07:19:30.2 (190554677)|VARIABLE_SCOPE_BEGIN|[87]|p|Profile|true|false
+07:19:30.2 (190591544)|VARIABLE_ASSIGNMENT|[87]|p|{"Id":"00ef2000001g0RxAAI","PermissionsModifyAllData":false,"Name":"Chatter Free User"}|0x1b373f19
+07:19:30.2 (190605957)|STATEMENT_EXECUTE|[87]
+07:19:30.2 (190624062)|STATEMENT_EXECUTE|[88]
+07:19:30.2 (190638053)|METHOD_ENTRY|[87]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (190699201)|METHOD_EXIT|[87]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (190716860)|METHOD_ENTRY|[87]||Database.QueryLocatorIterator.next()
+07:19:30.2 (190869655)|METHOD_EXIT|[87]||Database.QueryLocatorIterator.next()
+07:19:30.2 (190890185)|VARIABLE_SCOPE_BEGIN|[87]|p|Profile|true|false
+07:19:30.2 (190927765)|VARIABLE_ASSIGNMENT|[87]|p|{"Id":"00ef2000001g0RyAAI","PermissionsModifyAllData":true,"Name":"System Administrator"}|0x4ed5743c
+07:19:30.2 (190942715)|STATEMENT_EXECUTE|[87]
+07:19:30.2 (190959956)|STATEMENT_EXECUTE|[88]
+07:19:30.2 (190963654)|STATEMENT_EXECUTE|[89]
+07:19:30.2 (190990080)|METHOD_ENTRY|[89]|01pf2000000nvoW|ActionPlansTestUtilities.createTestUser(Profile)
+07:19:30.2 (191022495)|VARIABLE_SCOPE_BEGIN|[99]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (191123016)|VARIABLE_ASSIGNMENT|[99]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (191149359)|VARIABLE_SCOPE_BEGIN|[99]|p|Profile|true|false
+07:19:30.2 (191181481)|VARIABLE_ASSIGNMENT|[99]|p|{"Id":"00ef2000001g0RyAAI","PermissionsModifyAllData":true,"Name":"System Administrator"}|0x4ed5743c
+07:19:30.2 (191215443)|HEAP_ALLOCATE|[101]|Bytes:5
+07:19:30.2 (191230277)|STATEMENT_EXECUTE|[99]
+07:19:30.2 (191233562)|STATEMENT_EXECUTE|[101]
+07:19:30.2 (191254034)|METHOD_ENTRY|[101]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (191283996)|VARIABLE_SCOPE_BEGIN|[74]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (191374611)|VARIABLE_ASSIGNMENT|[74]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (191413021)|HEAP_ALLOCATE|[76]|Bytes:5
+07:19:30.2 (191426590)|STATEMENT_EXECUTE|[74]
+07:19:30.2 (191430322)|STATEMENT_EXECUTE|[76]
+07:19:30.2 (191448430)|METHOD_ENTRY|[76]||System.Math.random()
+07:19:30.2 (191494047)|METHOD_EXIT|[76]||System.Math.random()
+07:19:30.2 (191540816)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (191571630)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (191606191)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (191646958)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (191665829)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (191691842)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (191719882)|SYSTEM_METHOD_ENTRY|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (191768370)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (191778982)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (191807171)|SYSTEM_METHOD_EXIT|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (191843121)|SYSTEM_METHOD_ENTRY|[76]|Decimal.doubleValue()
+07:19:30.2 (191911777)|HEAP_ALLOCATE|[76]|Bytes:12
+07:19:30.2 (191942122)|SYSTEM_METHOD_EXIT|[76]|Decimal.doubleValue()
+07:19:30.2 (191972225)|METHOD_ENTRY|[76]||System.Math.rint(Double)
+07:19:30.2 (192047330)|METHOD_EXIT|[76]||System.Math.rint(Double)
+07:19:30.2 (192094869)|SYSTEM_METHOD_ENTRY|[76]|String.valueOf(Object)
+07:19:30.2 (192113933)|HEAP_ALLOCATE|[76]|Bytes:7
+07:19:30.2 (192147588)|SYSTEM_METHOD_EXIT|[76]|String.valueOf(Object)
+07:19:30.2 (192171379)|HEAP_ALLOCATE|[76]|Bytes:11
+07:19:30.2 (192188812)|VARIABLE_SCOPE_BEGIN|[76]|ret|String|false|false
+07:19:30.2 (192214669)|VARIABLE_ASSIGNMENT|[76]|ret|"word12308.0"
+07:19:30.2 (192226745)|STATEMENT_EXECUTE|[78]
+07:19:30.2 (192246354)|METHOD_EXIT|[101]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (192264189)|VARIABLE_SCOPE_BEGIN|[101]|namePrefix|String|false|false
+07:19:30.2 (192287117)|VARIABLE_ASSIGNMENT|[101]|namePrefix|"word12308.0"
+07:19:30.2 (192297656)|STATEMENT_EXECUTE|[103]
+07:19:30.2 (192328851)|HEAP_ALLOCATE|[103]|Bytes:4
+07:19:30.2 (192468527)|VARIABLE_SCOPE_BEGIN|[103]|testUser|User|true|false
+07:19:30.2 (192502580)|VARIABLE_ASSIGNMENT|[103]|testUser|{}|0x16324bf2
+07:19:30.2 (192516402)|STATEMENT_EXECUTE|[104]
+07:19:30.2 (192524595)|HEAP_ALLOCATE|[104]|Bytes:13
+07:19:30.2 (193889687)|VARIABLE_ASSIGNMENT|[104]|this.Email|"test@test.com"|0x16324bf2
+07:19:30.2 (193907708)|STATEMENT_EXECUTE|[105]
+07:19:30.2 (193916522)|HEAP_ALLOCATE|[105]|Bytes:13
+07:19:30.2 (193938198)|HEAP_ALLOCATE|[105]|Bytes:24
+07:19:30.2 (194015443)|VARIABLE_ASSIGNMENT|[105]|this.Username|"word12308.0@testuser (4 more) ..."|0x16324bf2
+07:19:30.2 (194032641)|STATEMENT_EXECUTE|[106]
+07:19:30.2 (194040546)|HEAP_ALLOCATE|[106]|Bytes:4
+07:19:30.2 (194108790)|VARIABLE_ASSIGNMENT|[106]|this.LastName|"test"|0x16324bf2
+07:19:30.2 (194123737)|STATEMENT_EXECUTE|[107]
+07:19:30.2 (194186294)|VARIABLE_ASSIGNMENT|[107]|this.Alias|"test"|0x16324bf2
+07:19:30.2 (194201789)|STATEMENT_EXECUTE|[108]
+07:19:30.2 (194315825)|VARIABLE_ASSIGNMENT|[108]|this.ProfileId|"00ef2000001g0RyAAI"|0x16324bf2
+07:19:30.2 (194332182)|STATEMENT_EXECUTE|[109]
+07:19:30.2 (194340151)|HEAP_ALLOCATE|[109]|Bytes:5
+07:19:30.2 (194411195)|VARIABLE_ASSIGNMENT|[109]|this.LanguageLocaleKey|"en_US"|0x16324bf2
+07:19:30.2 (194426657)|STATEMENT_EXECUTE|[110]
+07:19:30.2 (194491376)|VARIABLE_ASSIGNMENT|[110]|this.LocaleSidKey|"en_US"|0x16324bf2
+07:19:30.2 (194506507)|STATEMENT_EXECUTE|[111]
+07:19:30.2 (194514263)|HEAP_ALLOCATE|[111]|Bytes:15
+07:19:30.2 (194585656)|VARIABLE_ASSIGNMENT|[111]|this.TimeZoneSidKey|"America/Chicago"|0x16324bf2
+07:19:30.2 (194601295)|STATEMENT_EXECUTE|[112]
+07:19:30.2 (194608448)|HEAP_ALLOCATE|[112]|Bytes:5
+07:19:30.2 (194679986)|VARIABLE_ASSIGNMENT|[112]|this.EmailEncodingKey|"UTF-8"|0x16324bf2
+07:19:30.2 (194694930)|STATEMENT_EXECUTE|[114]
+07:19:30.2 (194734132)|HEAP_ALLOCATE|[114]|Bytes:8
+07:19:30.2 (194752319)|DML_BEGIN|[114]|Op:Insert|Type:User|Rows:1
+07:19:30.2 (194801241)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (429794971)|DML_END|[114]
+07:19:30.2 (429832223)|STATEMENT_EXECUTE|[116]
+07:19:30.2 (429854104)|METHOD_EXIT|[89]|01pf2000000nvoW|ActionPlansTestUtilities.createTestUser(Profile)
+07:19:30.2 (429897298)|METHOD_EXIT|[311]|01pf2000000nvoW|ActionPlansTestUtilities.createTestUser()
+07:19:30.2 (429913707)|VARIABLE_SCOPE_BEGIN|[311]|user|User|true|false
+07:19:30.2 (429982228)|VARIABLE_ASSIGNMENT|[311]|user|{"Email":"test@test.com","Username":"word12308.0@testuser (4 more) ...","LastName":"test","Alias":"test","ProfileId":"00ef2000001g0RyAAI","LanguageLocaleKey":"en_US","LocaleSidKey":"en_US","TimeZoneSidKey":"America/Chicago","EmailEncodingKey":"UTF-8","Id":"0054C0000011ROnQAM"}|0x16324bf2
+07:19:30.2 (429997546)|STATEMENT_EXECUTE|[314]
+07:19:30.2 (430004423)|VARIABLE_SCOPE_BEGIN|[314]|i|Integer|false|false
+07:19:30.2 (430015016)|HEAP_ALLOCATE|[314]|Bytes:4
+07:19:30.2 (430028035)|VARIABLE_ASSIGNMENT|[314]|i|0
+07:19:30.2 (430036249)|STATEMENT_EXECUTE|[314]
+07:19:30.2 (430038297)|STATEMENT_EXECUTE|[315]
+07:19:30.2 (430045118)|HEAP_ALLOCATE|[315]|Bytes:5
+07:19:30.2 (430052187)|HEAP_ALLOCATE|[315]|Bytes:4
+07:19:30.2 (430082241)|METHOD_ENTRY|[315]|01pf2000000nvoW|ActionPlansTestUtilities.createNewActionPlanTask(ActionPlan__c, Integer, User, String, String)
+07:19:30.2 (430122776)|VARIABLE_SCOPE_BEGIN|[327]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (430209148)|VARIABLE_ASSIGNMENT|[327]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (430224013)|VARIABLE_SCOPE_BEGIN|[327]|actionPlan|ActionPlan__c|true|false
+07:19:30.2 (430267600)|VARIABLE_ASSIGNMENT|[327]|actionPlan|{"Name":"word15355.0","StartDate__c":"2018-08-20T00:00:00.000Z","OwnerId":"005f2000007Okk1AAC","Account__c":"0014C00000JVQnGQAX","Id":"a2P4C000000HMIwUAO"}|0x1b38f50d
+07:19:30.2 (430278144)|VARIABLE_SCOPE_BEGIN|[327]|days|Integer|false|false
+07:19:30.2 (430287992)|VARIABLE_ASSIGNMENT|[327]|days|1
+07:19:30.2 (430294543)|VARIABLE_SCOPE_BEGIN|[327]|user|User|true|false
+07:19:30.2 (430324206)|VARIABLE_ASSIGNMENT|[327]|user|{"Email":"test@test.com","Username":"word12308.0@testuser (4 more) ...","LastName":"test","Alias":"test","ProfileId":"00ef2000001g0RyAAI","LanguageLocaleKey":"en_US","LocaleSidKey":"en_US","TimeZoneSidKey":"America/Chicago","EmailEncodingKey":"UTF-8","Id":"0054C0000011ROnQAM"}|0x16324bf2
+07:19:30.2 (430335523)|VARIABLE_SCOPE_BEGIN|[327]|category|String|false|false
+07:19:30.2 (430345717)|VARIABLE_ASSIGNMENT|[327]|category|"Email"
+07:19:30.2 (430351282)|VARIABLE_SCOPE_BEGIN|[327]|priority|String|false|false
+07:19:30.2 (430360216)|VARIABLE_ASSIGNMENT|[327]|priority|"High"
+07:19:30.2 (430393060)|HEAP_ALLOCATE|[329]|Bytes:5
+07:19:30.2 (430401591)|STATEMENT_EXECUTE|[327]
+07:19:30.2 (430404044)|STATEMENT_EXECUTE|[329]
+07:19:30.2 (430441817)|HEAP_ALLOCATE|[329]|Bytes:4
+07:19:30.2 (430483500)|VARIABLE_SCOPE_BEGIN|[329]|newAPTask|APTaskTemplate__c|true|false
+07:19:30.2 (430501935)|VARIABLE_ASSIGNMENT|[329]|newAPTask|{}|0x12058713
+07:19:30.2 (430509672)|STATEMENT_EXECUTE|[330]
+07:19:30.2 (430526205)|METHOD_ENTRY|[330]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (430546073)|VARIABLE_SCOPE_BEGIN|[74]|this|ActionPlansTestUtilities|true|false
+07:19:30.2 (430601447)|VARIABLE_ASSIGNMENT|[74]|this|{"xmlImport":"<?xml version=\"1.0\"? (1700 more) ...","xmlImportEmptyMetaData":"<?xml version=\"1.0\"? (160 more) ...","xmlImportWrongAPTask":"<?xml version=\"1.0\"? (1670 more) ...","xmlImportWrongAPTemplate":"<?xml version=\"1.0\"? (1637 more) ...","xmlImportWrongMetaData":"<?xml version=\"1.0\"? (188 more) ..."}|0x715647e5
+07:19:30.2 (430630949)|HEAP_ALLOCATE|[76]|Bytes:5
+07:19:30.2 (430639178)|STATEMENT_EXECUTE|[74]
+07:19:30.2 (430641462)|STATEMENT_EXECUTE|[76]
+07:19:30.2 (430652486)|METHOD_ENTRY|[76]||System.Math.random()
+07:19:30.2 (430681960)|METHOD_EXIT|[76]||System.Math.random()
+07:19:30.2 (430720323)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (430739689)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (430757507)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (430778937)|SYSTEM_METHOD_ENTRY|[76]|Decimal.valueOf(Double)
+07:19:30.2 (430789516)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (430804861)|SYSTEM_METHOD_EXIT|[76]|Decimal.valueOf(Double)
+07:19:30.2 (430820990)|SYSTEM_METHOD_ENTRY|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (430853597)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (430860258)|HEAP_ALLOCATE|[76]|Bytes:28
+07:19:30.2 (430876352)|SYSTEM_METHOD_EXIT|[76]|Decimal.multiply(Decimal)
+07:19:30.2 (430890919)|SYSTEM_METHOD_ENTRY|[76]|Decimal.doubleValue()
+07:19:30.2 (430941737)|HEAP_ALLOCATE|[76]|Bytes:12
+07:19:30.2 (430959739)|SYSTEM_METHOD_EXIT|[76]|Decimal.doubleValue()
+07:19:30.2 (430971164)|METHOD_ENTRY|[76]||System.Math.rint(Double)
+07:19:30.2 (431018273)|METHOD_EXIT|[76]||System.Math.rint(Double)
+07:19:30.2 (431048222)|SYSTEM_METHOD_ENTRY|[76]|String.valueOf(Object)
+07:19:30.2 (431059526)|HEAP_ALLOCATE|[76]|Bytes:7
+07:19:30.2 (431076187)|SYSTEM_METHOD_EXIT|[76]|String.valueOf(Object)
+07:19:30.2 (431089938)|HEAP_ALLOCATE|[76]|Bytes:11
+07:19:30.2 (431097878)|VARIABLE_SCOPE_BEGIN|[76]|ret|String|false|false
+07:19:30.2 (431112498)|VARIABLE_ASSIGNMENT|[76]|ret|"word94063.0"
+07:19:30.2 (431118477)|STATEMENT_EXECUTE|[78]
+07:19:30.2 (431133318)|METHOD_EXIT|[330]|01pf2000000nvoW|ActionPlansTestUtilities.createRandomWord()
+07:19:30.2 (433784476)|VARIABLE_ASSIGNMENT|[330]|this.Subject__c|"word94063.0"|0x12058713
+07:19:30.2 (433798016)|STATEMENT_EXECUTE|[331]
+07:19:30.2 (433817756)|HEAP_ALLOCATE|[331]|Bytes:28
+07:19:30.2 (433824904)|HEAP_ALLOCATE|[331]|Bytes:28
+07:19:30.2 (433890542)|VARIABLE_ASSIGNMENT|[331]|this.DaysFromStart__c|1|0x12058713
+07:19:30.2 (433900786)|STATEMENT_EXECUTE|[332]
+07:19:30.2 (434003984)|VARIABLE_ASSIGNMENT|[332]|this.Action_Plan__c|"a2P4C000000HMIwUAO"|0x12058713
+07:19:30.2 (434014835)|STATEMENT_EXECUTE|[333]
+07:19:30.2 (434096286)|VARIABLE_ASSIGNMENT|[333]|this.User__c|"0054C0000011ROnQAM"|0x12058713
+07:19:30.2 (434106632)|STATEMENT_EXECUTE|[334]
+07:19:30.2 (434159938)|VARIABLE_ASSIGNMENT|[334]|this.Type__c|"Email"|0x12058713
+07:19:30.2 (434169748)|STATEMENT_EXECUTE|[335]
+07:19:30.2 (434221093)|VARIABLE_ASSIGNMENT|[335]|this.Priority__c|"High"|0x12058713
+07:19:30.2 (434231074)|STATEMENT_EXECUTE|[336]
+07:19:30.2 (434236105)|HEAP_ALLOCATE|[336]|Bytes:3
+07:19:30.2 (434292833)|VARIABLE_ASSIGNMENT|[336]|this.Minutes_Reminder__c|"510"|0x12058713
+07:19:30.2 (434303048)|STATEMENT_EXECUTE|[338]
+07:19:30.2 (434305005)|STATEMENT_EXECUTE|[338]
+07:19:30.2 (434306772)|STATEMENT_EXECUTE|[339]
+07:19:30.2 (434339362)|HEAP_ALLOCATE|[339]|Bytes:8
+07:19:30.2 (434350464)|DML_BEGIN|[339]|Op:Insert|Type:APTaskTemplate__c|Rows:1
+07:19:30.2 (434394092)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (454920612)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:APTaskTemplate:new
+07:19:30.2 (454954315)|VALIDATION_RULE|03df2000000kIyW|DaysGreaterThanZero
+07:19:30.2 (455055478)|VALIDATION_FORMULA|DaysFromStart__c  <= 0|DaysFromStart__c=1
+07:19:30.2 (455066776)|VALIDATION_PASS
+07:19:30.2 (455205636)|CODE_UNIT_FINISHED|Validation:APTaskTemplate:new
+07:19:30.2 (485292515)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:ActionPlan:a2P4C000000HMIw
+07:19:30.2 (485324202)|VALIDATION_RULE|03df2000000kIyX|Reference_Object_Can_not_be_null
+07:19:30.2 (485807103)|VALIDATION_FORMULA|AND(  
+OR( Lead__c == null,  Lead__c == '' ),
+OR( Account__c == null,  Account__c == '' ),
+OR( Contact__c == null,  Contact__c == '' ),
+OR( Opportunity__c == null,  Opportunity__c == '' ),
+OR( Case__c == null,  Case__c == '' ),
+OR( Contract__c == null,  Contract__c == '' ),
+OR( Campaign__c == null,  Campaign__c == '' )
+ )|Account__c=0014C00000JVQnG , Opportunity__c=null , Lead__c=null , Contract__c=null , Contact__c=null , Case__c=null , Campaign__c=null
+07:19:30.2 (485829351)|VALIDATION_PASS
+07:19:30.2 (486179766)|CODE_UNIT_FINISHED|Validation:ActionPlan:a2P4C000000HMIw
+07:19:30.2 (502736580)|DML_END|[339]
+07:19:30.2 (502783995)|STATEMENT_EXECUTE|[345]
+07:19:30.2 (502821211)|METHOD_EXIT|[315]|01pf2000000nvoW|ActionPlansTestUtilities.createNewActionPlanTask(ActionPlan__c, Integer, User, String, String)
+07:19:30.2 (502917474)|VARIABLE_ASSIGNMENT|[315]|auxTask|{"Subject__c":"word94063.0","DaysFromStart__c":1,"Action_Plan__c":"a2P4C000000HMIwUAO","User__c":"0054C0000011ROnQAM","Type__c":"Email","Priority__c":"High","Minutes_Reminder__c":"510","Id":"a2N4C000000I9AgUAK"}|0x12058713
+07:19:30.2 (502949201)|HEAP_ALLOCATE|[314]|Bytes:4
+07:19:30.2 (502975698)|VARIABLE_ASSIGNMENT|[314]|i|1
+07:19:30.2 (502993126)|STATEMENT_EXECUTE|[320]
+07:19:30.2 (503012547)|METHOD_EXIT|[40]|01pf2000000nvoW|ActionPlansTestUtilities.createNewActionPlan(String, Integer)
+07:19:30.2 (503036783)|VARIABLE_SCOPE_BEGIN|[40]|ap|ActionPlan__c|true|false
+07:19:30.2 (503106487)|VARIABLE_ASSIGNMENT|[40]|ap|{"Name":"word15355.0","StartDate__c":"2018-08-20T00:00:00.000Z","OwnerId":"005f2000007Okk1AAC","Account__c":"0014C00000JVQnGQAX","Id":"a2P4C000000HMIwUAO"}|0x1b38f50d
+07:19:30.2 (503123380)|STATEMENT_EXECUTE|[41]
+07:19:30.2 (503133844)|HEAP_ALLOCATE|[41]|Bytes:42
+07:19:30.2 (503175254)|HEAP_ALLOCATE|[41]|Bytes:4
+07:19:30.2 (503201685)|HEAP_ALLOCATE|[41]|Bytes:7
+07:19:30.2 (503569629)|SOQL_EXECUTE_BEGIN|[41]|Aggregations:0|SELECT id FROM Account WHERE id = :tmpVar1
+07:19:30.2 (508093733)|SOQL_EXECUTE_END|[41]|Rows:1
+07:19:30.2 (508143830)|HEAP_ALLOCATE|[41]|Bytes:8
+07:19:30.2 (508175951)|HEAP_ALLOCATE|[41]|Bytes:29
+07:19:30.2 (508243292)|HEAP_ALLOCATE|[41]|Bytes:8
+07:19:30.2 (508271891)|HEAP_ALLOCATE|[41]|Bytes:33
+07:19:30.2 (508321044)|HEAP_ALLOCATE|[41]|Bytes:8
+07:19:30.2 (508343222)|VARIABLE_SCOPE_BEGIN|[41]|a|Account|true|false
+07:19:30.2 (508393895)|VARIABLE_ASSIGNMENT|[41]|a|{"Id":"0014C00000JVQnGQAX"}|0xc0889e8
+07:19:30.2 (508411258)|STATEMENT_EXECUTE|[44]
+07:19:30.2 (508519639)|HEAP_ALLOCATE|[44]|Bytes:70
+07:19:30.2 (508552834)|SYSTEM_METHOD_ENTRY|[1]|Test.Test()
+07:19:30.2 (508563753)|STATEMENT_EXECUTE|[1]
+07:19:30.2 (508582994)|SYSTEM_METHOD_EXIT|[1]|Test
+07:19:30.2 (508613586)|METHOD_ENTRY|[44]||System.Test.startTest()
+07:19:30.2 (510257811)|METHOD_EXIT|[44]||System.Test.startTest()
+07:19:30.2 (510277238)|STATEMENT_EXECUTE|[45]
+07:19:30.2 (510329492)|HEAP_ALLOCATE|[45]|Bytes:8
+07:19:30.2 (510349332)|HEAP_ALLOCATE|[45]|Bytes:8
+07:19:30.2 (510363138)|DML_BEGIN|[45]|Op:Delete|Type:Account|Rows:1
+07:19:30.2 (510410602)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.521 (521755846)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (522074806)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (522545173)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (527951723)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (529243190)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (641387632)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (642000357)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (642593338)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (642680477)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (643004823)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (643194340)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (644826812)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (650017533)|SOQL_EXECUTE_BEGIN|[11]|Aggregations:0|SELECT NamespacePrefix FROM Organization
+07:19:30.521 (658515575)|SOQL_EXECUTE_END|[11]|Rows:1
+07:19:30.521 (660272044)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (660517490)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (660632802)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (662414281)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (662628697)|ENTERING_MANAGED_PKG|rh2
+07:19:30.521 (664991997)|ENTERING_MANAGED_PKG|rh2
+07:19:30.665 (665603107)|CUMULATIVE_LIMIT_USAGE
+07:19:30.665 (665603107)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 25 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 5 out of 150
+  Number of DML rows: 5 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.665 (665603107)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.665 (665603107)|TESTING_LIMITS
+07:19:30.665 (665603107)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.665 (665603107)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.665 (665603107)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:30.2 (669882441)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORI|AccountTrigger on Account trigger event BeforeDelete|__sfdc_trigger/AccountTrigger
+07:19:30.2 (669973106)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (670108887)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:30.2 (670126475)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:30.2 (670218444)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x36c53909
+07:19:30.2 (670303696)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:30.2 (670319387)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:30.2 (670343091)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x36c53909
+07:19:30.2 (670354812)|STATEMENT_EXECUTE|[1]
+07:19:30.2 (670358042)|STATEMENT_EXECUTE|[3]
+07:19:30.2 (670373525)|HEAP_ALLOCATE|[3]|Bytes:4
+07:19:30.2 (670396925)|SYSTEM_CONSTRUCTOR_ENTRY|[3]|<init>(Integer)
+07:19:30.2 (670424723)|SYSTEM_CONSTRUCTOR_EXIT|[3]|<init>(Integer)
+07:19:30.2 (670479098)|VARIABLE_ASSIGNMENT|[3]|this.aIds|[]|0x36c53909
+07:19:30.2 (670488299)|STATEMENT_EXECUTE|[4]
+07:19:30.2 (670501139)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:30.2 (670512838)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>()
+07:19:30.2 (670530143)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>()
+07:19:30.2 (670570496)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (670587018)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x36c53909
+07:19:30.2 (670594118)|STATEMENT_EXECUTE|[5]
+07:19:30.2 (670604458)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:30.2 (670650427)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>()
+07:19:30.2 (670673469)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>()
+07:19:30.2 (670691937)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (670705919)|VARIABLE_ASSIGNMENT|[5]|this.deletePermantently_apIds|[]|0x36c53909
+07:19:30.2 (670720366)|STATEMENT_EXECUTE|[8]
+07:19:30.2 (670773672)|SYSTEM_METHOD_ENTRY|[9]|List<Account>.iterator()
+07:19:30.2 (670908674)|SYSTEM_METHOD_EXIT|[9]|List<Account>.iterator()
+07:19:30.2 (670953837)|SYSTEM_METHOD_ENTRY|[9]|system.ListIterator.hasNext()
+07:19:30.2 (670982235)|HEAP_ALLOCATE|[9]|Bytes:5
+07:19:30.2 (671002098)|SYSTEM_METHOD_EXIT|[9]|system.ListIterator.hasNext()
+07:19:30.2 (671037350)|VARIABLE_SCOPE_BEGIN|[9]|a|Account|true|false
+07:19:30.2 (673946982)|VARIABLE_ASSIGNMENT|[9]|a|{"LastModifiedDate":"2018-08-20T14:19:30.000Z","IsDeleted":false,"OpenOpportunities__c":0,"SystemModstamp":"2018-08-20T14:19:30.000Z","Name":"word55397.0","Data_Quality_Description__c":"Missing: Industry, R (36 more) ...","IsExcludedFromRealign":false,"OwnerId":"005f2000007Okk1AAC","OpenOpportunitiesGreater50k__c":0,"CreatedById":"005f2000007Okk1AAC","CreatedDate":"2018-08-20T14:19:30.000Z","Id":"0014C00000JVQnGQAX","Data_Quality_Score__c":0,"LastModifiedById":"005f2000007Okk1AAC"}|0x599b8e41
+07:19:30.2 (674012097)|STATEMENT_EXECUTE|[9]
+07:19:30.2 (674017872)|STATEMENT_EXECUTE|[10]
+07:19:30.2 (674236013)|SYSTEM_METHOD_ENTRY|[10]|Set<Id>.add(Object)
+07:19:30.2 (674288173)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (674348534)|SYSTEM_METHOD_EXIT|[10]|Set<Id>.add(Object)
+07:19:30.2 (674372335)|SYSTEM_METHOD_ENTRY|[9]|system.ListIterator.hasNext()
+07:19:30.2 (674409424)|HEAP_ALLOCATE|[9]|Bytes:5
+07:19:30.2 (674431025)|SYSTEM_METHOD_EXIT|[9]|system.ListIterator.hasNext()
+07:19:30.2 (674456769)|VARIABLE_ASSIGNMENT|[9]|a|null|
+07:19:30.2 (674465361)|STATEMENT_EXECUTE|[14]
+07:19:30.2 (674472722)|HEAP_ALLOCATE|[14]|Bytes:112
+07:19:30.2 (674501406)|HEAP_ALLOCATE|[14]|Bytes:4
+07:19:30.2 (674621277)|HEAP_ALLOCATE|[14]|Bytes:8
+07:19:30.2 (674643013)|HEAP_ALLOCATE|[14]|Bytes:8
+07:19:30.2 (675152566)|SOQL_EXECUTE_BEGIN|[14]|Aggregations:0|SELECT Id, Name, LastModifiedDate FROM ActionPlan__c WHERE (Account__c = :tmpVar1 AND isDeleted = TRUE) ALL ROWS
+07:19:30.2 (681507388)|SOQL_EXECUTE_END|[14]|Rows:0
+07:19:30.2 (681553435)|HEAP_ALLOCATE|[14]|Bytes:4
+07:19:30.2 (681572351)|HEAP_ALLOCATE|[14]|Bytes:0
+07:19:30.2 (681627474)|HEAP_ALLOCATE|[14]|Bytes:4
+07:19:30.2 (681693012)|VARIABLE_ASSIGNMENT|[14]|this.deletePermantently_apIds|[]|0x36c53909
+07:19:30.2 (681726967)|SYSTEM_METHOD_ENTRY|[16]|List<ActionPlan__c>.size()
+07:19:30.2 (681767070)|SYSTEM_METHOD_EXIT|[16]|List<ActionPlan__c>.size()
+07:19:30.2 (681779647)|STATEMENT_EXECUTE|[16]
+07:19:30.2 (681788287)|HEAP_ALLOCATE|[21]|Bytes:85
+07:19:30.2 (681810680)|HEAP_ALLOCATE|[21]|Bytes:4
+07:19:30.2 (682309167)|SOQL_EXECUTE_BEGIN|[21]|Aggregations:1|SELECT (SELECT Id, isDeleted FROM Action_Plans__r) FROM Account a 
+07:19:30.2 (690464943)|SOQL_EXECUTE_END|[21]|Rows:1
+07:19:30.2 (690510889)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (690590674)|SYSTEM_METHOD_ENTRY|[21]|Database.QueryLocator.iterator()
+07:19:30.2 (690766253)|HEAP_ALLOCATE|[21]|Bytes:28
+07:19:30.2 (690832890)|HEAP_ALLOCATE|[21]|Bytes:8
+07:19:30.2 (690868325)|HEAP_ALLOCATE|[21]|Bytes:8
+07:19:30.2 (690879511)|HEAP_ALLOCATE|[21]|Bytes:8
+07:19:30.2 (690895713)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+07:19:30.2 (690969207)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x55310053
+07:19:30.2 (690983605)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+07:19:30.2 (691060469)|VARIABLE_ASSIGNMENT|[15]|values|[{"Id":"0014C00000JVQnGQAX","Action_Plans__r":[{"Account__c":"0014C00000JVQnGQAX","Id":"a2P4C000000HMIwUAO","IsDeleted":false}]}]|0x6bb7057d
+07:19:30.2 (691079080)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+07:19:30.2 (691109695)|VARIABLE_ASSIGNMENT|[15]|ql|{"query":"SELECT (SELECT Id, i (65 more) ..."}|0x76fad963
+07:19:30.2 (691128098)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+07:19:30.2 (691148068)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+07:19:30.2 (691159615)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+07:19:30.2 (691197409)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|49999
+07:19:30.2 (691335441)|HEAP_ALLOCATE|[21]|Bytes:28
+07:19:30.2 (691356105)|SYSTEM_METHOD_EXIT|[21]|Database.QueryLocator.iterator()
+07:19:30.2 (691388355)|METHOD_ENTRY|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (691495255)|METHOD_EXIT|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (691540375)|METHOD_ENTRY|[21]||Database.QueryLocatorIterator.next()
+07:19:30.2 (691688970)|METHOD_EXIT|[21]||Database.QueryLocatorIterator.next()
+07:19:30.2 (691704819)|VARIABLE_SCOPE_BEGIN|[21]|a|Account|true|false
+07:19:30.2 (691732622)|VARIABLE_ASSIGNMENT|[21]|a|{"Id":"0014C00000JVQnGQAX","Action_Plans__r":[{"Account__c":"0014C00000JVQnGQAX","Id":"a2P4C000000HMIwUAO","IsDeleted":false}]}|0x207ee0e0
+07:19:30.2 (691744007)|STATEMENT_EXECUTE|[21]
+07:19:30.2 (691752609)|HEAP_ALLOCATE|[22]|Bytes:15
+07:19:30.2 (691760383)|HEAP_ALLOCATE|[22]|Bytes:13
+07:19:30.2 (691814875)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (691896536)|HEAP_ALLOCATE|[22]|Bytes:8
+07:19:30.2 (691957301)|SYSTEM_METHOD_ENTRY|[22]|List<ActionPlan__c>.size()
+07:19:30.2 (691996641)|SYSTEM_METHOD_EXIT|[22]|List<ActionPlan__c>.size()
+07:19:30.2 (692007457)|STATEMENT_EXECUTE|[22]
+07:19:30.2 (692039052)|HEAP_ALLOCATE|[23]|Bytes:8
+07:19:30.2 (692074149)|SYSTEM_METHOD_ENTRY|[23]|Database.QueryLocator.iterator()
+07:19:30.2 (692176749)|HEAP_ALLOCATE|[23]|Bytes:28
+07:19:30.2 (692204657)|HEAP_ALLOCATE|[23]|Bytes:8
+07:19:30.2 (692223527)|HEAP_ALLOCATE|[23]|Bytes:8
+07:19:30.2 (692228770)|HEAP_ALLOCATE|[23]|Bytes:8
+07:19:30.2 (692234831)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+07:19:30.2 (692262544)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x7d905f24
+07:19:30.2 (692271693)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+07:19:30.2 (692292589)|VARIABLE_ASSIGNMENT|[15]|values|[{"Account__c":"0014C00000JVQnGQAX","Id":"a2P4C000000HMIwUAO","IsDeleted":false}]|0x2e5f2106
+07:19:30.2 (692299799)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+07:19:30.2 (692312312)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0xe4ed46f
+07:19:30.2 (692318667)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+07:19:30.2 (692327970)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+07:19:30.2 (692333189)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+07:19:30.2 (692341417)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+07:19:30.2 (692396223)|HEAP_ALLOCATE|[23]|Bytes:28
+07:19:30.2 (692408199)|SYSTEM_METHOD_EXIT|[23]|Database.QueryLocator.iterator()
+07:19:30.2 (692421751)|METHOD_ENTRY|[23]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (692461718)|METHOD_EXIT|[23]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (692473359)|METHOD_ENTRY|[23]||Database.QueryLocatorIterator.next()
+07:19:30.2 (692549380)|METHOD_EXIT|[23]||Database.QueryLocatorIterator.next()
+07:19:30.2 (692562129)|VARIABLE_SCOPE_BEGIN|[23]|ap|ActionPlan__c|true|false
+07:19:30.2 (692584679)|VARIABLE_ASSIGNMENT|[23]|ap|{"Account__c":"0014C00000JVQnGQAX","Id":"a2P4C000000HMIwUAO","IsDeleted":false}|0x59604ca6
+07:19:30.2 (692593068)|STATEMENT_EXECUTE|[23]
+07:19:30.2 (692595642)|STATEMENT_EXECUTE|[24]
+07:19:30.2 (692651885)|SYSTEM_METHOD_ENTRY|[24]|List<String>.add(Object)
+07:19:30.2 (692695016)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (692714165)|SYSTEM_METHOD_EXIT|[24]|List<String>.add(Object)
+07:19:30.2 (692727809)|METHOD_ENTRY|[23]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (692758254)|METHOD_EXIT|[23]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (692773941)|VARIABLE_ASSIGNMENT|[23]|ap|null|
+07:19:30.2 (692788176)|METHOD_ENTRY|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (692811549)|METHOD_EXIT|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:30.2 (692824772)|VARIABLE_ASSIGNMENT|[21]|a|null|
+07:19:30.2 (692853003)|SYSTEM_METHOD_ENTRY|[28]|List<String>.size()
+07:19:30.2 (692877194)|SYSTEM_METHOD_EXIT|[28]|List<String>.size()
+07:19:30.2 (692885658)|STATEMENT_EXECUTE|[28]
+07:19:30.2 (692887963)|STATEMENT_EXECUTE|[29]
+07:19:30.2 (694750154)|HEAP_ALLOCATE|[29]|Bytes:75
+07:19:30.2 (694767086)|HEAP_ALLOCATE|[29]|Bytes:11
+07:19:30.2 (694786832)|METHOD_ENTRY|[33]|01pf2000000nvoN|ActionPlansBatchDelete.ActionPlansBatchDelete()
+07:19:30.2 (694794484)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (694799251)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (695268168)|SYSTEM_MODE_ENTER|false
+07:19:30.2 (695288439)|HEAP_ALLOCATE|[29]|Bytes:5
+07:19:30.2 (695303473)|SYSTEM_MODE_EXIT|false
+07:19:30.2 (695327122)|METHOD_EXIT|[33]|ActionPlansBatchDelete
+07:19:30.2 (695344993)|HEAP_ALLOCATE|[29]|Bytes:8
+07:19:30.2 (695390261)|METHOD_ENTRY|[29]||System.UserInfo.getUserId()
+07:19:30.2 (695445929)|METHOD_EXIT|[29]||System.UserInfo.getUserId()
+07:19:30.2 (695464657)|HEAP_ALLOCATE|[29]|Bytes:4
+07:19:30.2 (695511059)|CONSTRUCTOR_ENTRY|[29]|01pf2000000nvoN|<init>(List<String>,Id)|ActionPlansBatchDelete
+07:19:30.2 (695531656)|VARIABLE_SCOPE_BEGIN|[40]|this|ActionPlansBatchDelete|true|false
+07:19:30.2 (697400195)|VARIABLE_ASSIGNMENT|[40]|this|{}|0x26f651d1
+07:19:30.2 (697420755)|VARIABLE_SCOPE_BEGIN|[40]|oIdsLIst|List<String>|true|false
+07:19:30.2 (697455625)|VARIABLE_ASSIGNMENT|[40]|oIdsLIst|["a2P4C000000HMIwUAO"]|0x71760318
+07:19:30.2 (697470345)|VARIABLE_SCOPE_BEGIN|[40]|userId|Id|false|false
+07:19:30.2 (697696125)|VARIABLE_ASSIGNMENT|[40]|userId|"005f2000007Okk1AAC"
+07:19:30.2 (698168374)|SYSTEM_MODE_ENTER|false
+07:19:30.2 (698188603)|HEAP_ALLOCATE|[42]|Bytes:5
+07:19:30.2 (698200943)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (698246163)|HEAP_ALLOCATE|[42]|Bytes:5
+07:19:30.2 (698259072)|STATEMENT_EXECUTE|[35]
+07:19:30.2 (698301200)|STATEMENT_EXECUTE|[40]
+07:19:30.2 (698305330)|STATEMENT_EXECUTE|[42]
+07:19:30.2 (698315614)|HEAP_ALLOCATE|[42]|Bytes:120
+07:19:30.2 (698356326)|HEAP_ALLOCATE|[42]|Bytes:14
+07:19:30.2 (698380238)|METHOD_ENTRY|[33]|01pf2000000nvoP|ActionPlansBatchDeleteUtilities.ActionPlansBatchDeleteUtilities()
+07:19:30.2 (698391656)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (698398137)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (698410113)|HEAP_ALLOCATE|[42]|Bytes:5
+07:19:30.2 (698429851)|METHOD_EXIT|[33]|ActionPlansBatchDeleteUtilities
+07:19:30.2 (698466180)|HEAP_ALLOCATE|[42]|Bytes:12
+07:19:30.2 (698496172)|CONSTRUCTOR_ENTRY|[42]|01pf2000000nvoP|<init>(List<String>,Id)|ActionPlansBatchDeleteUtilities
+07:19:30.2 (698653018)|VARIABLE_SCOPE_BEGIN|[39]|this|ActionPlansBatchDeleteUtilities|true|false
+07:19:30.2 (698711825)|VARIABLE_ASSIGNMENT|[39]|this|{}|0x9e34cf5
+07:19:30.2 (698728620)|VARIABLE_SCOPE_BEGIN|[39]|oIdsLIst|List<String>|true|false
+07:19:30.2 (698752676)|VARIABLE_ASSIGNMENT|[39]|oIdsLIst|["a2P4C000000HMIwUAO"]|0x71760318
+07:19:30.2 (698766084)|VARIABLE_SCOPE_BEGIN|[39]|userId|Id|false|false
+07:19:30.2 (698876206)|VARIABLE_ASSIGNMENT|[39]|userId|"005f2000007Okk1AAC"
+07:19:30.2 (698896477)|HEAP_ALLOCATE|[41]|Bytes:5
+07:19:30.2 (698903699)|STATEMENT_EXECUTE|[33]
+07:19:30.2 (698908237)|HEAP_ALLOCATE|[41]|Bytes:5
+07:19:30.2 (698913089)|STATEMENT_EXECUTE|[35]
+07:19:30.2 (698915064)|STATEMENT_EXECUTE|[36]
+07:19:30.2 (698943960)|STATEMENT_EXECUTE|[39]
+07:19:30.2 (698946884)|STATEMENT_EXECUTE|[41]
+07:19:30.2 (698964362)|SYSTEM_METHOD_ENTRY|[41]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds(List<String>)
+07:19:30.2 (699007348)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x9e34cf5
+07:19:30.2 (699028113)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|["a2P4C000000HMIwUAO"]|0x71760318
+07:19:30.2 (699053653)|VARIABLE_ASSIGNMENT|[35]|this.relActionPlansIds|["a2P4C000000HMIwUAO"]|0x9e34cf5
+07:19:30.2 (699068093)|SYSTEM_METHOD_EXIT|[41]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds(List<String>)
+07:19:30.2 (699087098)|CONSTRUCTOR_EXIT|[42]|01pf2000000nvoP|<init>(List<String>,Id)|ActionPlansBatchDeleteUtilities
+07:19:30.2 (699101479)|VARIABLE_ASSIGNMENT|[42]|this.taskBatch|0x9e34cf5|0x26f651d1
+07:19:30.2 (699109908)|SYSTEM_MODE_EXIT|false
+07:19:30.2 (699129773)|CONSTRUCTOR_EXIT|[29]|01pf2000000nvoN|<init>(List<String>,Id)|ActionPlansBatchDelete
+07:19:30.2 (699141064)|VARIABLE_SCOPE_BEGIN|[29]|aPBatch|ActionPlansBatchDelete|true|false
+07:19:30.2 (699173939)|VARIABLE_ASSIGNMENT|[29]|aPBatch|{"taskBatch":"0x9e34cf5"}|0x26f651d1
+07:19:30.2 (699183309)|STATEMENT_EXECUTE|[30]
+07:19:30.2 (699207042)|SYSTEM_METHOD_ENTRY|[30]|Database.executeBatch(APEX_OBJECT)
+07:19:30.2 (725059238)|SYSTEM_METHOD_EXIT|[30]|Database.executeBatch(APEX_OBJECT)
+07:19:30.2 (725109662)|STATEMENT_EXECUTE|[35]
+07:19:30.725 (725128774)|CUMULATIVE_LIMIT_USAGE
+07:19:30.725 (725128774)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 25 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 5 out of 150
+  Number of DML rows: 5 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.725 (725128774)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.725 (725128774)|TESTING_LIMITS
+07:19:30.725 (725128774)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.725 (725128774)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.725 (725128774)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:30.2 (726201835)|CODE_UNIT_FINISHED|AccountTrigger on Account trigger event BeforeDelete|__sfdc_trigger/AccountTrigger
+07:19:30.922 (922741127)|ENTERING_MANAGED_PKG|rh2
+07:19:30.922 (923021198)|ENTERING_MANAGED_PKG|rh2
+07:19:30.922 (923363413)|ENTERING_MANAGED_PKG|rh2
+07:19:30.922 (925235966)|ENTERING_MANAGED_PKG|rh2
+07:19:30.926 (926028704)|CUMULATIVE_LIMIT_USAGE
+07:19:30.926 (926028704)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 25 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 5 out of 150
+  Number of DML rows: 5 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.926 (926028704)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.926 (926028704)|TESTING_LIMITS
+07:19:30.926 (926028704)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.926 (926028704)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.926 (926028704)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:30.2 (929249647)|DML_END|[45]
+07:19:30.2 (929278696)|STATEMENT_EXECUTE|[46]
+07:19:30.2 (929309231)|METHOD_ENTRY|[46]||System.Test.stopTest()
+07:19:30.2 (934575059)|CODE_UNIT_STARTED|[EXTERNAL]|01pf2000000nvoN|ActionPlansBatchDelete
+07:19:30.2 (936765879)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:46
+07:19:30.2 (941953235)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:11
+07:19:30.2 (942001179)|SYSTEM_METHOD_ENTRY|[15]|BatchableContextImpl.BatchableContextImpl()
+07:19:30.2 (942014533)|STATEMENT_EXECUTE|[15]
+07:19:30.2 (942035810)|SYSTEM_METHOD_EXIT|[15]|BatchableContextImpl
+07:19:30.2 (942053892)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+07:19:30.2 (942064862)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (942083101)|VARIABLE_SCOPE_BEGIN|[31]|this|Database.BatchableContextImpl|true|false
+07:19:30.2 (942152593)|VARIABLE_ASSIGNMENT|[31]|this|{}|0xa40a151
+07:19:30.2 (942169604)|VARIABLE_SCOPE_BEGIN|[31]|jobId|Id|false|false
+07:19:30.2 (942282076)|VARIABLE_ASSIGNMENT|[31]|jobId|"7074C00000WZ7mvQAD"
+07:19:30.2 (942298142)|VARIABLE_SCOPE_BEGIN|[31]|childJobId|Id|false|false
+07:19:30.2 (942316534)|VARIABLE_ASSIGNMENT|[31]|childJobId|null
+07:19:30.2 (942736063)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:30.2 (942750168)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+07:19:30.2 (942764926)|VARIABLE_SCOPE_BEGIN|[50]|this|ActionPlansBatchDelete|true|false
+07:19:30.2 (942825483)|VARIABLE_ASSIGNMENT|[50]|this|{"taskBatch":"0x5378b722"}|0x505465a8
+07:19:30.2 (942843258)|VARIABLE_SCOPE_BEGIN|[50]|bc|Database.BatchableContext|true|false
+07:19:30.2 (942968365)|VARIABLE_ASSIGNMENT|[50]|bc|{"jobId":"7074C00000WZ7mvQAD"}|0xa40a151
+07:19:30.2 (943529305)|SYSTEM_MODE_ENTER|false
+07:19:30.2 (943550330)|HEAP_ALLOCATE|[51]|Bytes:5
+07:19:30.2 (943564824)|STATEMENT_EXECUTE|[50]
+07:19:30.2 (943568733)|STATEMENT_EXECUTE|[51]
+07:19:30.2 (943600596)|METHOD_ENTRY|[51]|01pf2000000nvoP|ActionPlansBatchDeleteUtilities.getObjects(Database.BatchableContext)
+07:19:30.2 (943640574)|VARIABLE_SCOPE_BEGIN|[46]|this|ActionPlansBatchDeleteUtilities|true|false
+07:19:30.2 (943699632)|VARIABLE_ASSIGNMENT|[46]|this|{"relActionPlansIds":"0x438998b2"}|0x5378b722
+07:19:30.2 (943717318)|VARIABLE_SCOPE_BEGIN|[46]|bc|Database.BatchableContext|true|false
+07:19:30.2 (943842577)|VARIABLE_ASSIGNMENT|[46]|bc|{"jobId":"7074C00000WZ7mvQAD"}|0xa40a151
+07:19:30.2 (943879387)|HEAP_ALLOCATE|[48]|Bytes:5
+07:19:30.2 (943893295)|STATEMENT_EXECUTE|[46]
+07:19:30.2 (943896871)|STATEMENT_EXECUTE|[48]
+07:19:30.2 (943904267)|HEAP_ALLOCATE|[48]|Bytes:47
+07:19:30.2 (943921911)|VARIABLE_SCOPE_BEGIN|[48]|soql|String|false|false
+07:19:30.2 (943951625)|VARIABLE_ASSIGNMENT|[48]|soql|"Select a.Id From Act (27 more) ..."
+07:19:30.2 (943964220)|STATEMENT_EXECUTE|[50]
+07:19:30.2 (943971318)|HEAP_ALLOCATE|[50]|Bytes:1
+07:19:30.2 (943984935)|VARIABLE_SCOPE_BEGIN|[50]|inClause|String|false|false
+07:19:30.2 (944008427)|VARIABLE_ASSIGNMENT|[50]|inClause|"("
+07:19:30.2 (944038988)|SYSTEM_METHOD_ENTRY|[52]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds()
+07:19:30.2 (944104645)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"relActionPlansIds":"0x438998b2"}|0x5378b722
+07:19:30.2 (944134626)|SYSTEM_METHOD_EXIT|[52]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds()
+07:19:30.2 (944162465)|SYSTEM_METHOD_ENTRY|[52]|List<String>.iterator()
+07:19:30.2 (944182965)|SYSTEM_METHOD_EXIT|[52]|List<String>.iterator()
+07:19:30.2 (944206308)|SYSTEM_METHOD_ENTRY|[52]|system.ListIterator.hasNext()
+07:19:30.2 (944226140)|HEAP_ALLOCATE|[52]|Bytes:5
+07:19:30.2 (944245842)|SYSTEM_METHOD_EXIT|[52]|system.ListIterator.hasNext()
+07:19:30.2 (944268859)|HEAP_ALLOCATE|[52]|Bytes:18
+07:19:30.2 (944291325)|VARIABLE_SCOPE_BEGIN|[52]|iter|String|false|false
+07:19:30.2 (944316544)|VARIABLE_ASSIGNMENT|[52]|iter|"a2P4C000000HMIwUAO"
+07:19:30.2 (944328411)|STATEMENT_EXECUTE|[52]
+07:19:30.2 (944332054)|STATEMENT_EXECUTE|[53]
+07:19:30.2 (944338097)|HEAP_ALLOCATE|[53]|Bytes:1
+07:19:30.2 (944350670)|HEAP_ALLOCATE|[53]|Bytes:2
+07:19:30.2 (944378002)|HEAP_ALLOCATE|[53]|Bytes:21
+07:19:30.2 (944406558)|HEAP_ALLOCATE|[53]|Bytes:22
+07:19:30.2 (944432442)|VARIABLE_ASSIGNMENT|[53]|inClause|"('a2P4C000000HMIwUAO (2 more) ..."
+07:19:30.2 (944454883)|SYSTEM_METHOD_ENTRY|[52]|system.ListIterator.hasNext()
+07:19:30.2 (944474030)|HEAP_ALLOCATE|[52]|Bytes:5
+07:19:30.2 (944492449)|SYSTEM_METHOD_EXIT|[52]|system.ListIterator.hasNext()
+07:19:30.2 (944514533)|VARIABLE_ASSIGNMENT|[52]|iter|null
+07:19:30.2 (944526850)|STATEMENT_EXECUTE|[55]
+07:19:30.2 (944563538)|SYSTEM_METHOD_ENTRY|[55]|String.length()
+07:19:30.2 (944613145)|SYSTEM_METHOD_EXIT|[55]|String.length()
+07:19:30.2 (944657383)|SYSTEM_METHOD_ENTRY|[55]|String.substring(Integer, Integer)
+07:19:30.2 (944675174)|HEAP_ALLOCATE|[55]|Bytes:21
+07:19:30.2 (944706352)|SYSTEM_METHOD_EXIT|[55]|String.substring(Integer, Integer)
+07:19:30.2 (944732698)|VARIABLE_ASSIGNMENT|[55]|inClause|"('a2P4C000000HMIwUAO (1 more) ..."
+07:19:30.2 (944745899)|STATEMENT_EXECUTE|[56]
+07:19:30.2 (944753264)|HEAP_ALLOCATE|[56]|Bytes:1
+07:19:30.2 (944771265)|HEAP_ALLOCATE|[56]|Bytes:22
+07:19:30.2 (944804726)|VARIABLE_ASSIGNMENT|[56]|inClause|"('a2P4C000000HMIwUAO (2 more) ..."
+07:19:30.2 (944816578)|STATEMENT_EXECUTE|[57]
+07:19:30.2 (944829067)|HEAP_ALLOCATE|[57]|Bytes:69
+07:19:30.2 (944854399)|VARIABLE_ASSIGNMENT|[57]|soql|"Select a.Id From Act (49 more) ..."
+07:19:30.2 (944866798)|STATEMENT_EXECUTE|[59]
+07:19:30.2 (944900333)|SYSTEM_METHOD_ENTRY|[59]|Database.getQueryLocator(String)
+07:19:30.2 (945379316)|SOQL_EXECUTE_BEGIN|[59]|Aggregations:0|Select a.Id From ActionPlan__c a 
+07:19:30.2 (968107066)|SOQL_EXECUTE_END|[59]|Rows:1
+07:19:30.2 (968198967)|HEAP_ALLOCATE|[59]|Bytes:20
+07:19:30.2 (968234519)|SYSTEM_METHOD_EXIT|[59]|Database.getQueryLocator(String)
+07:19:30.2 (968271034)|METHOD_EXIT|[51]|01pf2000000nvoP|ActionPlansBatchDeleteUtilities.getObjects(Database.BatchableContext)
+07:19:30.2 (968288351)|SYSTEM_MODE_EXIT|false
+07:19:30.982 (982733036)|CUMULATIVE_LIMIT_USAGE
+07:19:30.982 (982733036)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:30.982 (982733036)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:30.2 (982798187)|CODE_UNIT_FINISHED|ActionPlansBatchDelete
+07:19:30.2 (984960550)|CODE_UNIT_STARTED|[EXTERNAL]|01pf2000000nvoN|ActionPlansBatchDelete
+07:19:30.2 (988616897)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:46
+07:19:30.2 (990832870)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+07:19:30.2 (990846950)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (990852312)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:30.2 (990869132)|VARIABLE_SCOPE_BEGIN|[31]|this|Database.BatchableContextImpl|true|false
+07:19:30.2 (990946901)|VARIABLE_ASSIGNMENT|[31]|this|{}|0x1018b050
+07:19:30.2 (990961556)|VARIABLE_SCOPE_BEGIN|[31]|jobId|Id|false|false
+07:19:30.2 (991056898)|VARIABLE_ASSIGNMENT|[31]|jobId|"7074C00000WZ7mvQAD"
+07:19:30.2 (991067443)|VARIABLE_SCOPE_BEGIN|[31]|childJobId|Id|false|false
+07:19:30.2 (991103808)|VARIABLE_ASSIGNMENT|[31]|childJobId|"7074C00000WZ7mwQAD"
+07:19:31.19 (1019066062)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1020237258)|CODE_UNIT_STARTED|[EXTERNAL]|01pf2000000nvoN|ActionPlansBatchDelete
+07:19:31.19 (1020889671)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1020906768)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+07:19:31.19 (1020941269)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1020963259)|VARIABLE_SCOPE_BEGIN|[59]|this|ActionPlansBatchDelete|true|false
+07:19:31.19 (1021046666)|VARIABLE_ASSIGNMENT|[59]|this|{"taskBatch":"0x3b4d2fcf"}|0x2655bf0f
+07:19:31.19 (1021067255)|VARIABLE_SCOPE_BEGIN|[59]|bc|Database.BatchableContext|true|false
+07:19:31.19 (1021225467)|VARIABLE_ASSIGNMENT|[59]|bc|{"childJobId":"7074C00000WZ7mwQAD","jobId":"7074C00000WZ7mvQAD"}|0x1018b050
+07:19:31.19 (1021246631)|VARIABLE_SCOPE_BEGIN|[59]|data|List<SObject>|true|false
+07:19:31.19 (1021285139)|VARIABLE_ASSIGNMENT|[59]|data|[{"Id":"a2P4C000000HMIwUAO"}]|0xb38f8f7
+07:19:31.19 (1021819178)|SYSTEM_MODE_ENTER|false
+07:19:31.19 (1021839107)|HEAP_ALLOCATE|[60]|Bytes:5
+07:19:31.19 (1021853038)|STATEMENT_EXECUTE|[59]
+07:19:31.19 (1021857413)|STATEMENT_EXECUTE|[60]
+07:19:31.19 (1023415386)|VARIABLE_SCOPE_BEGIN|[34]|ProcessorControl.inBatchContext|Boolean|false|true
+07:19:31.19 (1023465490)|METHOD_ENTRY|[33]|01pf2000000nvoe|ProcessorControl.ProcessorControl()
+07:19:31.19 (1023475924)|STATEMENT_EXECUTE|[33]
+07:19:31.19 (1023481417)|STATEMENT_EXECUTE|[33]
+07:19:31.19 (1023491205)|HEAP_ALLOCATE|[34]|Bytes:5
+07:19:31.19 (1023499287)|STATEMENT_EXECUTE|[34]
+07:19:31.19 (1023504968)|HEAP_ALLOCATE|[34]|Bytes:5
+07:19:31.19 (1023522301)|VARIABLE_ASSIGNMENT|[34]|ProcessorControl.inBatchContext|false
+07:19:31.19 (1023536966)|METHOD_EXIT|[33]|ProcessorControl
+07:19:31.19 (1023547029)|HEAP_ALLOCATE|[60]|Bytes:5
+07:19:31.19 (1023559693)|VARIABLE_ASSIGNMENT|[60]|ProcessorControl.inBatchContext|true
+07:19:31.19 (1023565387)|STATEMENT_EXECUTE|[61]
+07:19:31.19 (1023567328)|STATEMENT_EXECUTE|[61]
+07:19:31.19 (1023569069)|STATEMENT_EXECUTE|[62]
+07:19:31.19 (1023589641)|METHOD_ENTRY|[62]|01pf2000000nvoP|ActionPlansBatchDeleteUtilities.deleteActionPlans()
+07:19:31.19 (1023617768)|VARIABLE_SCOPE_BEGIN|[63]|this|ActionPlansBatchDeleteUtilities|true|false
+07:19:31.19 (1023655171)|VARIABLE_ASSIGNMENT|[63]|this|{"relActionPlansIds":"0x7836593a"}|0x3b4d2fcf
+07:19:31.19 (1023680316)|HEAP_ALLOCATE|[65]|Bytes:5
+07:19:31.19 (1023688124)|STATEMENT_EXECUTE|[63]
+07:19:31.19 (1023690375)|STATEMENT_EXECUTE|[65]
+07:19:31.19 (1023704214)|HEAP_ALLOCATE|[65]|Bytes:4
+07:19:31.19 (1023754694)|SYSTEM_CONSTRUCTOR_ENTRY|[65]|<init>()
+07:19:31.19 (1023790563)|SYSTEM_CONSTRUCTOR_EXIT|[65]|<init>()
+07:19:31.19 (1023799398)|VARIABLE_SCOPE_BEGIN|[65]|relTaskTemplateList|List<APTaskTemplate__c>|true|false
+07:19:31.19 (1023810328)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1023822386)|VARIABLE_ASSIGNMENT|[65]|relTaskTemplateList|[]|0x2a5732a4
+07:19:31.19 (1023829611)|STATEMENT_EXECUTE|[66]
+07:19:31.19 (1023840789)|HEAP_ALLOCATE|[66]|Bytes:4
+07:19:31.19 (1023852002)|SYSTEM_CONSTRUCTOR_ENTRY|[66]|<init>()
+07:19:31.19 (1023867665)|SYSTEM_CONSTRUCTOR_EXIT|[66]|<init>()
+07:19:31.19 (1023874023)|VARIABLE_SCOPE_BEGIN|[66]|relTaskTemplateIds|List<String>|true|false
+07:19:31.19 (1023899584)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1023912578)|VARIABLE_ASSIGNMENT|[66]|relTaskTemplateIds|[]|0x21f15d26
+07:19:31.19 (1023919548)|STATEMENT_EXECUTE|[67]
+07:19:31.19 (1023933917)|HEAP_ALLOCATE|[67]|Bytes:4
+07:19:31.19 (1023955178)|SYSTEM_CONSTRUCTOR_ENTRY|[67]|<init>()
+07:19:31.19 (1023972204)|SYSTEM_CONSTRUCTOR_EXIT|[67]|<init>()
+07:19:31.19 (1023978892)|VARIABLE_SCOPE_BEGIN|[67]|relTaskList|List<Task>|true|false
+07:19:31.19 (1023988619)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1023999060)|VARIABLE_ASSIGNMENT|[67]|relTaskList|[]|0x6d42e6af
+07:19:31.19 (1024006249)|STATEMENT_EXECUTE|[69]
+07:19:31.19 (1024009033)|STATEMENT_EXECUTE|[69]
+07:19:31.19 (1024010814)|STATEMENT_EXECUTE|[70]
+07:19:31.19 (1024016039)|HEAP_ALLOCATE|[70]|Bytes:64
+07:19:31.19 (1024033302)|HEAP_ALLOCATE|[70]|Bytes:4
+07:19:31.19 (1024051199)|SYSTEM_METHOD_ENTRY|[70]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds()
+07:19:31.19 (1024092901)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"relActionPlansIds":"0x7836593a"}|0x3b4d2fcf
+07:19:31.19 (1024109457)|SYSTEM_METHOD_EXIT|[70]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds()
+07:19:31.19 (1024128332)|HEAP_ALLOCATE|[70]|Bytes:7
+07:19:31.19 (1024965524)|VARIABLE_SCOPE_BEGIN|[39]|ActionPlansConstants.maxAPObjects|Integer|false|true
+07:19:31.19 (1024987834)|VARIABLE_SCOPE_BEGIN|[36]|ActionPlansConstants.maxAPTasks|Integer|false|true
+07:19:31.19 (1025000569)|VARIABLE_SCOPE_BEGIN|[42]|ActionPlansConstants.maxAPToDelete|Integer|false|true
+07:19:31.19 (1025024794)|METHOD_ENTRY|[33]|01pf2000000nvoS|ActionPlansConstants.ActionPlansConstants()
+07:19:31.19 (1025032702)|STATEMENT_EXECUTE|[33]
+07:19:31.19 (1025037231)|STATEMENT_EXECUTE|[33]
+07:19:31.19 (1025046929)|HEAP_ALLOCATE|[36]|Bytes:5
+07:19:31.19 (1025054012)|STATEMENT_EXECUTE|[36]
+07:19:31.19 (1025059011)|HEAP_ALLOCATE|[36]|Bytes:4
+07:19:31.19 (1025071972)|VARIABLE_ASSIGNMENT|[36]|ActionPlansConstants.maxAPTasks|75
+07:19:31.19 (1025077244)|STATEMENT_EXECUTE|[39]
+07:19:31.19 (1025080279)|HEAP_ALLOCATE|[39]|Bytes:4
+07:19:31.19 (1025088252)|VARIABLE_ASSIGNMENT|[39]|ActionPlansConstants.maxAPObjects|40
+07:19:31.19 (1025093175)|STATEMENT_EXECUTE|[42]
+07:19:31.19 (1025095977)|HEAP_ALLOCATE|[42]|Bytes:4
+07:19:31.19 (1025104067)|VARIABLE_ASSIGNMENT|[42]|ActionPlansConstants.maxAPToDelete|65
+07:19:31.19 (1025115573)|METHOD_EXIT|[33]|ActionPlansConstants
+07:19:31.19 (1025452552)|SOQL_EXECUTE_BEGIN|[70]|Aggregations:0|SELECT Id FROM ActionPlan__c WHERE Id IN :tmpVar1 LIMIT :tmpVar2
+07:19:31.19 (1028345882)|SOQL_EXECUTE_END|[70]|Rows:1
+07:19:31.19 (1028377093)|HEAP_ALLOCATE|[70]|Bytes:8
+07:19:31.19 (1028398552)|HEAP_ALLOCATE|[70]|Bytes:29
+07:19:31.19 (1028428846)|HEAP_ALLOCATE|[70]|Bytes:8
+07:19:31.19 (1028465662)|SYSTEM_METHOD_ENTRY|[70]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlans(List<ActionPlan__c>)
+07:19:31.19 (1028506692)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"relActionPlansIds":"0x7836593a"}|0x3b4d2fcf
+07:19:31.19 (1028530383)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"a2P4C000000HMIwUAO"}]|0x2395fd3b
+07:19:31.19 (1028555472)|VARIABLE_ASSIGNMENT|[36]|this.relActionPlans|[{"Id":"a2P4C000000HMIwUAO"}]|0x3b4d2fcf
+07:19:31.19 (1028569192)|SYSTEM_METHOD_EXIT|[70]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlans(List<ActionPlan__c>)
+07:19:31.19 (1028576012)|STATEMENT_EXECUTE|[72]
+07:19:31.19 (1028624679)|HEAP_ALLOCATE|[72]|Bytes:4
+07:19:31.19 (1028635289)|HEAP_ALLOCATE|[72]|Bytes:65
+07:19:31.19 (1028646278)|HEAP_ALLOCATE|[72]|Bytes:4
+07:19:31.19 (1028662183)|SYSTEM_METHOD_ENTRY|[72]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds()
+07:19:31.19 (1028706840)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"relActionPlans":"0x2395fd3b","relActionPlansIds":"0x7836593a"}|0x3b4d2fcf
+07:19:31.19 (1028723317)|SYSTEM_METHOD_EXIT|[72]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlansIds()
+07:19:31.19 (1029009426)|SOQL_EXECUTE_BEGIN|[72]|Aggregations:0|SELECT Id FROM APTaskTemplate__c WHERE Action_Plan__c IN :tmpVar1
+07:19:31.19 (1032307220)|SOQL_EXECUTE_END|[72]|Rows:1
+07:19:31.19 (1032333864)|HEAP_ALLOCATE|[72]|Bytes:8
+07:19:31.19 (1032351345)|HEAP_ALLOCATE|[72]|Bytes:29
+07:19:31.19 (1032382106)|HEAP_ALLOCATE|[72]|Bytes:8
+07:19:31.19 (1032431614)|HEAP_ALLOCATE|[72]|Bytes:8
+07:19:31.19 (1032450459)|HEAP_ALLOCATE|[72]|Bytes:4
+07:19:31.19 (1032467528)|VARIABLE_SCOPE_BEGIN|[72]|relTaskTemplateMap|Map<Id,APTaskTemplate__c>|true|false
+07:19:31.19 (1032499699)|VARIABLE_ASSIGNMENT|[72]|relTaskTemplateMap|{"a2N4C000000I9AgUAK":{"Id":"a2N4C000000I9AgUAK"}}|0x71b20205
+07:19:31.19 (1032514544)|STATEMENT_EXECUTE|[73]
+07:19:31.19 (1032519994)|HEAP_ALLOCATE|[73]|Bytes:58
+07:19:31.19 (1032536957)|HEAP_ALLOCATE|[73]|Bytes:4
+07:19:31.19 (1032560052)|SYSTEM_METHOD_ENTRY|[73]|Map<Id,APTaskTemplate__c>.keySet()
+07:19:31.19 (1032614075)|HEAP_ALLOCATE|[73]|Bytes:26
+07:19:31.19 (1032627183)|SYSTEM_METHOD_EXIT|[73]|Map<Id,APTaskTemplate__c>.keySet()
+07:19:31.19 (1032661454)|HEAP_ALLOCATE|[73]|Bytes:8
+07:19:31.19 (1032674166)|HEAP_ALLOCATE|[73]|Bytes:8
+07:19:31.19 (1035076001)|SOQL_EXECUTE_BEGIN|[73]|Aggregations:0|SELECT Id FROM Task t WHERE t.TaskTemplateId__c = :tmpVar1
+07:19:31.19 (1043223789)|SOQL_EXECUTE_END|[73]|Rows:0
+07:19:31.19 (1043276720)|HEAP_ALLOCATE|[73]|Bytes:4
+07:19:31.19 (1043292082)|HEAP_ALLOCATE|[73]|Bytes:0
+07:19:31.19 (1043330664)|HEAP_ALLOCATE|[73]|Bytes:4
+07:19:31.19 (1043374477)|VARIABLE_ASSIGNMENT|[73]|relTaskList|[]|0x71eebbdc
+07:19:31.19 (1043384797)|STATEMENT_EXECUTE|[75]
+07:19:31.19 (1043411726)|SYSTEM_METHOD_ENTRY|[75]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlans()
+07:19:31.19 (1043501643)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"relActionPlans":"0x2395fd3b","relActionPlansIds":"0x7836593a"}|0x3b4d2fcf
+07:19:31.19 (1043522609)|SYSTEM_METHOD_EXIT|[75]|ActionPlansBatchDeleteUtilities.__sfdc_relActionPlans()
+07:19:31.19 (1043585816)|DML_BEGIN|[75]|Op:Delete|Type:ActionPlan__c|Rows:1
+07:19:31.19 (1043625070)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1050293361)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORL|ActionPlanTrigger on ActionPlan trigger event BeforeDelete|__sfdc_trigger/ActionPlanTrigger
+07:19:31.19 (1050346421)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1050423114)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:31.19 (1050436316)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:31.19 (1050474451)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x54dcedf9
+07:19:31.19 (1050532610)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:31.19 (1050544744)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:31.19 (1050566722)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x54dcedf9
+07:19:31.19 (1050577912)|STATEMENT_EXECUTE|[1]
+07:19:31.19 (1050580696)|STATEMENT_EXECUTE|[4]
+07:19:31.19 (1050594587)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:31.19 (1050619609)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>(Integer)
+07:19:31.19 (1050633619)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>(Integer)
+07:19:31.19 (1050675169)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x54dcedf9
+07:19:31.19 (1050684110)|STATEMENT_EXECUTE|[5]
+07:19:31.19 (1050693203)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:31.19 (1050707337)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>(Integer)
+07:19:31.19 (1050717540)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>(Integer)
+07:19:31.19 (1050743947)|VARIABLE_ASSIGNMENT|[5]|this.apttIds|[]|0x54dcedf9
+07:19:31.19 (1050752347)|STATEMENT_EXECUTE|[6]
+07:19:31.19 (1050761122)|HEAP_ALLOCATE|[6]|Bytes:4
+07:19:31.19 (1050781976)|SYSTEM_CONSTRUCTOR_ENTRY|[6]|<init>(Integer)
+07:19:31.19 (1050792505)|SYSTEM_CONSTRUCTOR_EXIT|[6]|<init>(Integer)
+07:19:31.19 (1050819175)|VARIABLE_ASSIGNMENT|[6]|this.taskIds|[]|0x54dcedf9
+07:19:31.19 (1050827318)|STATEMENT_EXECUTE|[7]
+07:19:31.19 (1050839324)|HEAP_ALLOCATE|[7]|Bytes:4
+07:19:31.19 (1050849271)|SYSTEM_CONSTRUCTOR_ENTRY|[7]|<init>()
+07:19:31.19 (1050857812)|SYSTEM_CONSTRUCTOR_EXIT|[7]|<init>()
+07:19:31.19 (1050871842)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1050884154)|VARIABLE_ASSIGNMENT|[7]|this.tasks|[]|0x54dcedf9
+07:19:31.19 (1050903881)|STATEMENT_EXECUTE|[10]
+07:19:31.19 (1050912146)|STATEMENT_EXECUTE|[11]
+07:19:31.19 (1050919395)|STATEMENT_EXECUTE|[31]
+07:19:31.50 (1050928366)|CUMULATIVE_LIMIT_USAGE
+07:19:31.50 (1050928366)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 200
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 0
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.50 (1050928366)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1051886610)|CODE_UNIT_FINISHED|ActionPlanTrigger on ActionPlan trigger event BeforeDelete|__sfdc_trigger/ActionPlanTrigger
+07:19:31.19 (1114269928)|DML_END|[75]
+07:19:31.19 (1114372437)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1114403232)|STATEMENT_EXECUTE|[76]
+07:19:31.19 (1114516942)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1114553935)|METHOD_EXIT|[62]|01pf2000000nvoP|ActionPlansBatchDeleteUtilities.deleteActionPlans()
+07:19:31.19 (1116126066)|VARIABLE_SCOPE_BEGIN|[35]|ActionPlansBatchBuilderTest.isTest|Boolean|false|true
+07:19:31.19 (1116160297)|HEAP_ALLOCATE|[63]|Bytes:750
+07:19:31.19 (1116210652)|METHOD_ENTRY|[33]|01pf2000000nvoL|ActionPlansBatchBuilderTest.ActionPlansBatchBuilderTest()
+07:19:31.19 (1116225620)|STATEMENT_EXECUTE|[33]
+07:19:31.19 (1116233508)|STATEMENT_EXECUTE|[33]
+07:19:31.19 (1116248991)|HEAP_ALLOCATE|[35]|Bytes:5
+07:19:31.19 (1116263063)|STATEMENT_EXECUTE|[35]
+07:19:31.19 (1116274965)|HEAP_ALLOCATE|[35]|Bytes:5
+07:19:31.19 (1116308606)|VARIABLE_ASSIGNMENT|[35]|ActionPlansBatchBuilderTest.isTest|false
+07:19:31.19 (1116334437)|METHOD_EXIT|[33]|ActionPlansBatchBuilderTest
+07:19:31.19 (1116353587)|STATEMENT_EXECUTE|[63]
+07:19:31.19 (1116363937)|SYSTEM_MODE_EXIT|false
+07:19:31.19 (1116398668)|CODE_UNIT_FINISHED|ActionPlansBatchDelete
+07:19:31.136 (1136946515)|CUMULATIVE_LIMIT_USAGE
+07:19:31.136 (1136946515)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.136 (1136946515)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1137008492)|CODE_UNIT_FINISHED|ActionPlansBatchDelete
+07:19:31.19 (1139297973)|CODE_UNIT_STARTED|[EXTERNAL]|01pf2000000nvoN|ActionPlansBatchDelete
+07:19:31.19 (1142738817)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:82
+07:19:31.19 (1143045480)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+07:19:31.19 (1143063189)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1143082271)|VARIABLE_SCOPE_BEGIN|[31]|this|Database.BatchableContextImpl|true|false
+07:19:31.19 (1143157906)|VARIABLE_ASSIGNMENT|[31]|this|{}|0x4ffa0ea4
+07:19:31.19 (1143178368)|VARIABLE_SCOPE_BEGIN|[31]|jobId|Id|false|false
+07:19:31.19 (1143291579)|VARIABLE_ASSIGNMENT|[31]|jobId|"7074C00000WZ7mvQAD"
+07:19:31.19 (1143307298)|VARIABLE_SCOPE_BEGIN|[31]|childJobId|Id|false|false
+07:19:31.19 (1143335084)|VARIABLE_ASSIGNMENT|[31]|childJobId|null
+07:19:31.19 (1149582915)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1149598915)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+07:19:31.19 (1149612382)|VARIABLE_SCOPE_BEGIN|[88]|this|ActionPlansBatchDelete|true|false
+07:19:31.19 (1149667081)|VARIABLE_ASSIGNMENT|[88]|this|{"taskBatch":"0x510d1ca7"}|0x2da4cca0
+07:19:31.19 (1149684828)|VARIABLE_SCOPE_BEGIN|[88]|bc|Database.BatchableContext|true|false
+07:19:31.19 (1149819501)|VARIABLE_ASSIGNMENT|[88]|bc|{"jobId":"7074C00000WZ7mvQAD"}|0x4ffa0ea4
+07:19:31.19 (1150331892)|SYSTEM_MODE_ENTER|false
+07:19:31.19 (1150351934)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+07:19:31.19 (1150365847)|STATEMENT_EXECUTE|[88]
+07:19:31.19 (1150373599)|SYSTEM_MODE_EXIT|false
+07:19:31.157 (1157663674)|CUMULATIVE_LIMIT_USAGE
+07:19:31.157 (1157663674)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.157 (1157663674)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1157723442)|CODE_UNIT_FINISHED|ActionPlansBatchDelete
+07:19:31.19 (1160332067)|METHOD_EXIT|[46]||System.Test.stopTest()
+07:19:31.19 (1160351355)|STATEMENT_EXECUTE|[47]
+07:19:31.19 (1160362293)|HEAP_ALLOCATE|[47]|Bytes:48
+07:19:31.19 (1160397119)|HEAP_ALLOCATE|[47]|Bytes:4
+07:19:31.19 (1160889164)|SOQL_EXECUTE_BEGIN|[47]|Aggregations:0|SELECT id FROM ActionPlan__c WHERE id = :tmpVar1
+07:19:31.19 (1164530295)|SOQL_EXECUTE_END|[47]|Rows:0
+07:19:31.19 (1164563082)|HEAP_ALLOCATE|[47]|Bytes:4
+07:19:31.19 (1164578675)|HEAP_ALLOCATE|[47]|Bytes:0
+07:19:31.19 (1164622677)|HEAP_ALLOCATE|[47]|Bytes:4
+07:19:31.19 (1164641338)|VARIABLE_SCOPE_BEGIN|[47]|lAp|List<ActionPlan__c>|true|false
+07:19:31.19 (1164674519)|VARIABLE_ASSIGNMENT|[47]|lAp|[]|0x39223db6
+07:19:31.19 (1164683819)|STATEMENT_EXECUTE|[48]
+07:19:31.19 (1164701276)|SYSTEM_METHOD_ENTRY|[48]|List<ActionPlan__c>.size()
+07:19:31.19 (1164737658)|SYSTEM_METHOD_EXIT|[48]|List<ActionPlan__c>.size()
+07:19:31.19 (1164770232)|SYSTEM_METHOD_ENTRY|[48]|System.assert(Boolean)
+07:19:31.19 (1164785129)|SYSTEM_METHOD_EXIT|[48]|System.assert(Boolean)
+07:19:31.19 (1164792538)|STATEMENT_EXECUTE|[51]
+07:19:31.19 (1164803908)|HEAP_ALLOCATE|[51]|Bytes:5
+07:19:31.19 (1164825318)|VARIABLE_ASSIGNMENT|[51]|ActionPlanObjectTriggerTest.isTest|true
+07:19:31.19 (1164830976)|STATEMENT_EXECUTE|[52]
+07:19:31.19 (1164832844)|STATEMENT_EXECUTE|[52]
+07:19:31.19 (1164834545)|STATEMENT_EXECUTE|[53]
+07:19:31.19 (1164858384)|HEAP_ALLOCATE|[53]|Bytes:8
+07:19:31.19 (1164873548)|HEAP_ALLOCATE|[53]|Bytes:8
+07:19:31.19 (1164883152)|DML_BEGIN|[53]|Op:Undelete|Type:Account|Rows:1
+07:19:31.19 (1164916380)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.243 (1243965658)|ENTERING_MANAGED_PKG|rh2
+07:19:31.243 (1244217020)|ENTERING_MANAGED_PKG|rh2
+07:19:31.243 (1244511674)|ENTERING_MANAGED_PKG|rh2
+07:19:31.243 (1245976302)|ENTERING_MANAGED_PKG|rh2
+07:19:31.246 (1246697054)|CUMULATIVE_LIMIT_USAGE
+07:19:31.246 (1246697054)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 25 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 6 out of 150
+  Number of DML rows: 6 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.246 (1246697054)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.246 (1246697054)|TESTING_LIMITS
+07:19:31.246 (1246697054)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.246 (1246697054)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.246 (1246697054)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1249520490)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORI|AccountTrigger on Account trigger event AfterUndelete|__sfdc_trigger/AccountTrigger
+07:19:31.19 (1249583354)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1249657101)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:31.19 (1249677332)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:31.19 (1249744862)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5e8785d8
+07:19:31.19 (1249831132)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:31.19 (1249849414)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:31.19 (1249886951)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5e8785d8
+07:19:31.19 (1249905867)|STATEMENT_EXECUTE|[1]
+07:19:31.19 (1249911096)|STATEMENT_EXECUTE|[3]
+07:19:31.19 (1249938546)|HEAP_ALLOCATE|[3]|Bytes:4
+07:19:31.19 (1249974893)|SYSTEM_CONSTRUCTOR_ENTRY|[3]|<init>(Integer)
+07:19:31.19 (1250001638)|SYSTEM_CONSTRUCTOR_EXIT|[3]|<init>(Integer)
+07:19:31.19 (1250072932)|VARIABLE_ASSIGNMENT|[3]|this.aIds|[]|0x5e8785d8
+07:19:31.19 (1250088983)|STATEMENT_EXECUTE|[4]
+07:19:31.19 (1250106918)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:31.19 (1250125727)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>()
+07:19:31.19 (1250143041)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>()
+07:19:31.19 (1250192758)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1250215852)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x5e8785d8
+07:19:31.19 (1250229496)|STATEMENT_EXECUTE|[5]
+07:19:31.19 (1250247076)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:31.19 (1250265350)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>()
+07:19:31.19 (1250282127)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>()
+07:19:31.19 (1250306128)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1250326977)|VARIABLE_ASSIGNMENT|[5]|this.deletePermantently_apIds|[]|0x5e8785d8
+07:19:31.19 (1250351294)|STATEMENT_EXECUTE|[8]
+07:19:31.19 (1250362816)|STATEMENT_EXECUTE|[35]
+07:19:31.19 (1250366262)|STATEMENT_EXECUTE|[36]
+07:19:31.19 (1250450262)|VARIABLE_SCOPE_BEGIN|[36]|unDel_errors|List<Database.UndeleteResult>|true|false
+07:19:31.19 (1250478761)|VARIABLE_ASSIGNMENT|[36]|unDel_errors|null|
+07:19:31.19 (1250555929)|SYSTEM_METHOD_ENTRY|[37]|List<Account>.iterator()
+07:19:31.19 (1250604790)|SYSTEM_METHOD_EXIT|[37]|List<Account>.iterator()
+07:19:31.19 (1250632061)|SYSTEM_METHOD_ENTRY|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1250652019)|HEAP_ALLOCATE|[37]|Bytes:5
+07:19:31.19 (1250672736)|SYSTEM_METHOD_EXIT|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1250708726)|VARIABLE_SCOPE_BEGIN|[37]|a|Account|true|false
+07:19:31.19 (1252510617)|VARIABLE_ASSIGNMENT|[37]|a|{"LastModifiedDate":"2018-08-20T14:19:31.000Z","IsDeleted":false,"OpenOpportunities__c":0,"SystemModstamp":"2018-08-20T14:19:31.000Z","Name":"word55397.0","Data_Quality_Description__c":"Missing: Industry, R (36 more) ...","IsExcludedFromRealign":false,"OwnerId":"005f2000007Okk1AAC","OpenOpportunitiesGreater50k__c":0,"CreatedById":"005f2000007Okk1AAC","CreatedDate":"2018-08-20T14:19:30.000Z","Id":"0014C00000JVQnGQAX","Data_Quality_Score__c":0,"LastModifiedById":"005f2000007Okk1AAC"}|0x7ab997e8
+07:19:31.19 (1252546162)|STATEMENT_EXECUTE|[37]
+07:19:31.19 (1252551462)|STATEMENT_EXECUTE|[38]
+07:19:31.19 (1252620066)|SYSTEM_METHOD_ENTRY|[38]|Set<Id>.add(Object)
+07:19:31.19 (1252657471)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1252688525)|SYSTEM_METHOD_EXIT|[38]|Set<Id>.add(Object)
+07:19:31.19 (1252712614)|SYSTEM_METHOD_ENTRY|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1252731684)|HEAP_ALLOCATE|[37]|Bytes:5
+07:19:31.19 (1252750398)|SYSTEM_METHOD_EXIT|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1252770903)|VARIABLE_ASSIGNMENT|[37]|a|null|
+07:19:31.19 (1252781665)|STATEMENT_EXECUTE|[40]
+07:19:31.19 (1252801908)|HEAP_ALLOCATE|[40]|Bytes:4
+07:19:31.19 (1252861093)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1252875955)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1253518854)|SOQL_EXECUTE_BEGIN|[40]|Aggregations:0|SELECT Id, Name, LastModifiedDate FROM ActionPlan__c WHERE (Account__c = :tmpVar1 AND isDeleted = TRUE) ALL ROWS
+07:19:31.19 (1257427681)|SOQL_EXECUTE_END|[40]|Rows:1
+07:19:31.19 (1257471229)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1257504293)|HEAP_ALLOCATE|[40]|Bytes:72
+07:19:31.19 (1257552637)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1257576466)|VARIABLE_SCOPE_BEGIN|[40]|aPs|List<ActionPlan__c>|true|false
+07:19:31.19 (1257637467)|VARIABLE_ASSIGNMENT|[40]|aPs|[{"Id":"a2P4C000000HMIwUAO","Name":"word15355.0","LastModifiedDate":"2018-08-20T14:19:31.000Z"}]|0x2432203
+07:19:31.19 (1257653374)|STATEMENT_EXECUTE|[42]
+07:19:31.19 (1257657471)|STATEMENT_EXECUTE|[42]
+07:19:31.19 (1257671000)|STATEMENT_EXECUTE|[43]
+07:19:31.19 (1257674743)|STATEMENT_EXECUTE|[45]
+07:19:31.19 (1257707268)|HEAP_ALLOCATE|[45]|Bytes:4
+07:19:31.19 (1257911000)|HEAP_ALLOCATE|[45]|Bytes:8
+07:19:31.19 (1257937527)|DML_BEGIN|[45]|Op:Insert|Type:Contact|Rows:1
+07:19:31.19 (1257997720)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.275 (1275216470)|ENTERING_MANAGED_PKG|MC4SF
+07:19:31.276 (1276460135)|CUMULATIVE_LIMIT_USAGE
+07:19:31.276 (1276460135)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 26 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 7 out of 150
+  Number of DML rows: 7 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.276 (1276460135)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.276 (1276460135)|TESTING_LIMITS
+07:19:31.276 (1276460135)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.276 (1276460135)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.276 (1276460135)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1280701111)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+07:19:31.19 (1280722124)|DUPLICATE_DETECTION_BEGIN
+07:19:31.19 (1280800338)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bmf2000000m3e9|DuplicateRuleName:Standard Contact duplicate rule|DmlType:INSERT
+07:19:31.19 (1302852293)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Contact|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+07:19:31.19 (1302880132)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Contact|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+07:19:31.19 (1303101324)|DUPLICATE_DETECTION_END
+07:19:31.19 (1303117410)|CODE_UNIT_FINISHED|DuplicateDetector
+07:19:31.19 (1304284891)|DML_END|[45]
+07:19:31.19 (1304390748)|VF_PAGE_MESSAGE|Required fields are missing: [LastName]
+07:19:31.19 (1304486336)|EXCEPTION_THROWN|[45]|System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [LastName]: [LastName]
+07:19:31.19 (1304865330)|HEAP_ALLOCATE|[45]|Bytes:133
+07:19:31.19 (1304923565)|VARIABLE_SCOPE_BEGIN|[49]|e|System.DmlException|true|false
+07:19:31.19 (1305020815)|VARIABLE_ASSIGNMENT|[49]|e|"common.apex.runtime.impl.DmlExecutionException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [LastName]: [LastName]"|0x27ed43de
+07:19:31.19 (1305036611)|STATEMENT_EXECUTE|[49]
+07:19:31.19 (1305110802)|SYSTEM_METHOD_ENTRY|[50]|List<Account>.iterator()
+07:19:31.19 (1305157343)|SYSTEM_METHOD_EXIT|[50]|List<Account>.iterator()
+07:19:31.19 (1305172992)|SYSTEM_METHOD_ENTRY|[50]|system.ListIterator.hasNext()
+07:19:31.19 (1305189848)|HEAP_ALLOCATE|[50]|Bytes:5
+07:19:31.19 (1305200099)|SYSTEM_METHOD_EXIT|[50]|system.ListIterator.hasNext()
+07:19:31.19 (1305229469)|VARIABLE_SCOPE_BEGIN|[50]|a|Account|true|false
+07:19:31.19 (1305853500)|VARIABLE_ASSIGNMENT|[50]|a|{"LastModifiedDate":"2018-08-20T14:19:31.000Z","IsDeleted":false,"OpenOpportunities__c":0,"SystemModstamp":"2018-08-20T14:19:31.000Z","Name":"word55397.0","Data_Quality_Description__c":"Missing: Industry, R (36 more) ...","IsExcludedFromRealign":false,"OwnerId":"005f2000007Okk1AAC","OpenOpportunitiesGreater50k__c":0,"CreatedById":"005f2000007Okk1AAC","CreatedDate":"2018-08-20T14:19:30.000Z","Id":"0014C00000JVQnGQAX","Data_Quality_Score__c":0,"LastModifiedById":"005f2000007Okk1AAC"}|0x7ab997e8
+07:19:31.19 (1305871869)|STATEMENT_EXECUTE|[50]
+07:19:31.19 (1305874607)|STATEMENT_EXECUTE|[51]
+07:19:31.19 (1305881242)|HEAP_ALLOCATE|[51]|Bytes:68
+07:19:31.19 (1305926036)|SYSTEM_METHOD_ENTRY|[51]|SObject.addError(String, String)
+07:19:31.19 (1306025591)|VF_PAGE_MESSAGE|You can not undelete an action plan whose related object is deleted.
+07:19:31.19 (1306047674)|SYSTEM_METHOD_EXIT|[51]|SObject.addError(String, String)
+07:19:31.19 (1306060586)|SYSTEM_METHOD_ENTRY|[50]|system.ListIterator.hasNext()
+07:19:31.19 (1306071973)|HEAP_ALLOCATE|[50]|Bytes:5
+07:19:31.19 (1306081544)|SYSTEM_METHOD_EXIT|[50]|system.ListIterator.hasNext()
+07:19:31.19 (1306095835)|VARIABLE_ASSIGNMENT|[50]|a|null|
+07:19:31.306 (1306115470)|CUMULATIVE_LIMIT_USAGE
+07:19:31.306 (1306115470)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 4 out of 100
+  Number of query rows: 26 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 7 out of 150
+  Number of DML rows: 7 out of 10000
+  Maximum CPU time: 32 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.306 (1306115470)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.306 (1306115470)|TESTING_LIMITS
+07:19:31.306 (1306115470)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.306 (1306115470)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.306 (1306115470)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1307099711)|CODE_UNIT_FINISHED|AccountTrigger on Account trigger event AfterUndelete|__sfdc_trigger/AccountTrigger
+07:19:31.19 (1310221590)|DML_END|[53]
+07:19:31.19 (1310274724)|EXCEPTION_THROWN|[53]|System.DmlException: Undelete failed. First exception on row 0 with id 0014C00000JVQnGQAX; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, You can not undelete an action plan whose related object is deleted.: []
+07:19:31.19 (1310765235)|HEAP_ALLOCATE|[53]|Bytes:194
+07:19:31.19 (1310802103)|VARIABLE_SCOPE_BEGIN|[54]|e|System.DmlException|true|false
+07:19:31.19 (1310864215)|VARIABLE_ASSIGNMENT|[54]|e|"common.apex.runtime.impl.DmlExecutionException: Undelete failed. First exception on row 0 with id 0014C00000JVQnGQAX; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, You can not undelete an action plan whose related object is deleted.: []"|0x4f55529c
+07:19:31.19 (1310877858)|STATEMENT_EXECUTE|[54]
+07:19:31.19 (1310880621)|STATEMENT_EXECUTE|[55]
+07:19:31.19 (1310912190)|SYSTEM_METHOD_ENTRY|[55]|Exception.getMessage()
+07:19:31.19 (1310943881)|HEAP_ALLOCATE|[55]|Bytes:190
+07:19:31.19 (1310956589)|SYSTEM_METHOD_EXIT|[55]|Exception.getMessage()
+07:19:31.19 (1311011914)|SYSTEM_METHOD_ENTRY|[55]|String.contains(String)
+07:19:31.19 (1311037572)|SYSTEM_METHOD_EXIT|[55]|String.contains(String)
+07:19:31.19 (1311055757)|SYSTEM_METHOD_ENTRY|[55]|System.assert(Boolean)
+07:19:31.19 (1311065584)|SYSTEM_METHOD_EXIT|[55]|System.assert(Boolean)
+07:19:31.19 (1311071154)|STATEMENT_EXECUTE|[57]
+07:19:31.19 (1311082308)|HEAP_ALLOCATE|[57]|Bytes:5
+07:19:31.19 (1311101515)|VARIABLE_ASSIGNMENT|[57]|ActionPlanObjectTriggerTest.isTest|false
+07:19:31.19 (1311107982)|STATEMENT_EXECUTE|[60]
+07:19:31.19 (1311120895)|HEAP_ALLOCATE|[60]|Bytes:4
+07:19:31.19 (1311137070)|SYSTEM_CONSTRUCTOR_ENTRY|[60]|<init>()
+07:19:31.19 (1311160802)|SYSTEM_CONSTRUCTOR_EXIT|[60]|<init>()
+07:19:31.19 (1311168585)|VARIABLE_SCOPE_BEGIN|[60]|ids|List<String>|true|false
+07:19:31.19 (1311200437)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1311217746)|VARIABLE_ASSIGNMENT|[60]|ids|[]|0xca768d
+07:19:31.19 (1311225420)|STATEMENT_EXECUTE|[61]
+07:19:31.19 (1311292477)|SYSTEM_METHOD_ENTRY|[61]|List<String>.add(Object)
+07:19:31.19 (1311335977)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1311359066)|SYSTEM_METHOD_EXIT|[61]|List<String>.add(Object)
+07:19:31.19 (1311367508)|STATEMENT_EXECUTE|[62]
+07:19:31.19 (1311391888)|SYSTEM_METHOD_ENTRY|[62]|List<String>.add(Object)
+07:19:31.19 (1311422714)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1311440477)|SYSTEM_METHOD_EXIT|[62]|List<String>.add(Object)
+07:19:31.19 (1311447875)|STATEMENT_EXECUTE|[63]
+07:19:31.19 (1311468871)|HEAP_ALLOCATE|[63]|Bytes:8
+07:19:31.19 (1311485964)|HEAP_ALLOCATE|[63]|Bytes:8
+07:19:31.19 (1311494322)|DML_BEGIN|[63]|Op:Undelete|Type:Account|Rows:1
+07:19:31.19 (1311548075)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.375 (1375941825)|ENTERING_MANAGED_PKG|rh2
+07:19:31.375 (1376145597)|ENTERING_MANAGED_PKG|rh2
+07:19:31.375 (1376355316)|ENTERING_MANAGED_PKG|rh2
+07:19:31.375 (1377786461)|ENTERING_MANAGED_PKG|rh2
+07:19:31.378 (1378781871)|CUMULATIVE_LIMIT_USAGE
+07:19:31.378 (1378781871)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 25 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 7 out of 150
+  Number of DML rows: 7 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.378 (1378781871)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.378 (1378781871)|TESTING_LIMITS
+07:19:31.378 (1378781871)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.378 (1378781871)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.378 (1378781871)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1382001504)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORI|AccountTrigger on Account trigger event AfterUndelete|__sfdc_trigger/AccountTrigger
+07:19:31.19 (1382041213)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1382088510)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:31.19 (1382100098)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:31.19 (1382149916)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x78b2af57
+07:19:31.19 (1382200600)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:31.19 (1382211735)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:31.19 (1382233100)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x78b2af57
+07:19:31.19 (1382244076)|STATEMENT_EXECUTE|[1]
+07:19:31.19 (1382247359)|STATEMENT_EXECUTE|[3]
+07:19:31.19 (1382262566)|HEAP_ALLOCATE|[3]|Bytes:4
+07:19:31.19 (1382290237)|SYSTEM_CONSTRUCTOR_ENTRY|[3]|<init>(Integer)
+07:19:31.19 (1382303621)|SYSTEM_CONSTRUCTOR_EXIT|[3]|<init>(Integer)
+07:19:31.19 (1382350661)|VARIABLE_ASSIGNMENT|[3]|this.aIds|[]|0x78b2af57
+07:19:31.19 (1382359660)|STATEMENT_EXECUTE|[4]
+07:19:31.19 (1382370636)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:31.19 (1382381173)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>()
+07:19:31.19 (1382389082)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>()
+07:19:31.19 (1382420669)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1382436678)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x78b2af57
+07:19:31.19 (1382443725)|STATEMENT_EXECUTE|[5]
+07:19:31.19 (1382458552)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:31.19 (1382469224)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>()
+07:19:31.19 (1382477263)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>()
+07:19:31.19 (1382490107)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1382502123)|VARIABLE_ASSIGNMENT|[5]|this.deletePermantently_apIds|[]|0x78b2af57
+07:19:31.19 (1382514914)|STATEMENT_EXECUTE|[8]
+07:19:31.19 (1382521589)|STATEMENT_EXECUTE|[35]
+07:19:31.19 (1382523615)|STATEMENT_EXECUTE|[36]
+07:19:31.19 (1382528576)|VARIABLE_SCOPE_BEGIN|[36]|unDel_errors|List<Database.UndeleteResult>|true|false
+07:19:31.19 (1382542271)|VARIABLE_ASSIGNMENT|[36]|unDel_errors|null|
+07:19:31.19 (1382581561)|SYSTEM_METHOD_ENTRY|[37]|List<Account>.iterator()
+07:19:31.19 (1382595376)|SYSTEM_METHOD_EXIT|[37]|List<Account>.iterator()
+07:19:31.19 (1382606483)|SYSTEM_METHOD_ENTRY|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1382620728)|HEAP_ALLOCATE|[37]|Bytes:5
+07:19:31.19 (1382630710)|SYSTEM_METHOD_EXIT|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1382650140)|VARIABLE_SCOPE_BEGIN|[37]|a|Account|true|false
+07:19:31.19 (1383703504)|VARIABLE_ASSIGNMENT|[37]|a|{"LastModifiedDate":"2018-08-20T14:19:31.000Z","IsDeleted":false,"OpenOpportunities__c":0,"SystemModstamp":"2018-08-20T14:19:31.000Z","Name":"word55397.0","Data_Quality_Description__c":"Missing: Industry, R (36 more) ...","IsExcludedFromRealign":false,"OwnerId":"005f2000007Okk1AAC","OpenOpportunitiesGreater50k__c":0,"CreatedById":"005f2000007Okk1AAC","CreatedDate":"2018-08-20T14:19:30.000Z","Id":"0014C00000JVQnGQAX","Data_Quality_Score__c":0,"LastModifiedById":"005f2000007Okk1AAC"}|0x149d9d46
+07:19:31.19 (1383724706)|STATEMENT_EXECUTE|[37]
+07:19:31.19 (1383727736)|STATEMENT_EXECUTE|[38]
+07:19:31.19 (1383781081)|SYSTEM_METHOD_ENTRY|[38]|Set<Id>.add(Object)
+07:19:31.19 (1383795713)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1383810882)|SYSTEM_METHOD_EXIT|[38]|Set<Id>.add(Object)
+07:19:31.19 (1383823844)|SYSTEM_METHOD_ENTRY|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1383835188)|HEAP_ALLOCATE|[37]|Bytes:5
+07:19:31.19 (1383845282)|SYSTEM_METHOD_EXIT|[37]|system.ListIterator.hasNext()
+07:19:31.19 (1383859260)|VARIABLE_ASSIGNMENT|[37]|a|null|
+07:19:31.19 (1383866355)|STATEMENT_EXECUTE|[40]
+07:19:31.19 (1383885311)|HEAP_ALLOCATE|[40]|Bytes:4
+07:19:31.19 (1383939831)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1383954841)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1384373181)|SOQL_EXECUTE_BEGIN|[40]|Aggregations:0|SELECT Id, Name, LastModifiedDate FROM ActionPlan__c WHERE (Account__c = :tmpVar1 AND isDeleted = TRUE) ALL ROWS
+07:19:31.19 (1388903398)|SOQL_EXECUTE_END|[40]|Rows:1
+07:19:31.19 (1388946523)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1388972896)|HEAP_ALLOCATE|[40]|Bytes:72
+07:19:31.19 (1389018657)|HEAP_ALLOCATE|[40]|Bytes:8
+07:19:31.19 (1389040265)|VARIABLE_SCOPE_BEGIN|[40]|aPs|List<ActionPlan__c>|true|false
+07:19:31.19 (1389096711)|VARIABLE_ASSIGNMENT|[40]|aPs|[{"Id":"a2P4C000000HMIwUAO","Name":"word15355.0","LastModifiedDate":"2018-08-20T14:19:31.000Z"}]|0x21406379
+07:19:31.19 (1389111806)|STATEMENT_EXECUTE|[42]
+07:19:31.19 (1389114580)|STATEMENT_EXECUTE|[42]
+07:19:31.19 (1389121642)|STATEMENT_EXECUTE|[43]
+07:19:31.19 (1389123683)|STATEMENT_EXECUTE|[48]
+07:19:31.19 (1389172237)|SYSTEM_METHOD_ENTRY|[48]|Database.undelete(List<SObject>, Boolean)
+07:19:31.19 (1389218503)|DML_BEGIN|[48]|Op:Undelete|Type:ActionPlan__c|Rows:1
+07:19:31.19 (1389257296)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1470459549)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORL|ActionPlanTrigger on ActionPlan trigger event AfterUndelete|__sfdc_trigger/ActionPlanTrigger
+07:19:31.19 (1470553472)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1470671973)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:31.19 (1470694270)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:31.19 (1470777306)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x433d5325
+07:19:31.19 (1470865691)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:31.19 (1470886083)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:31.19 (1470923064)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x433d5325
+07:19:31.19 (1470949725)|STATEMENT_EXECUTE|[1]
+07:19:31.19 (1470955075)|STATEMENT_EXECUTE|[4]
+07:19:31.19 (1470982918)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:31.19 (1471024239)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>(Integer)
+07:19:31.19 (1471055457)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>(Integer)
+07:19:31.19 (1471127863)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x433d5325
+07:19:31.19 (1471144197)|STATEMENT_EXECUTE|[5]
+07:19:31.19 (1471159630)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:31.19 (1471184200)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>(Integer)
+07:19:31.19 (1471206396)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>(Integer)
+07:19:31.19 (1471248459)|VARIABLE_ASSIGNMENT|[5]|this.apttIds|[]|0x433d5325
+07:19:31.19 (1471262439)|STATEMENT_EXECUTE|[6]
+07:19:31.19 (1471275641)|HEAP_ALLOCATE|[6]|Bytes:4
+07:19:31.19 (1471296118)|SYSTEM_CONSTRUCTOR_ENTRY|[6]|<init>(Integer)
+07:19:31.19 (1471314233)|SYSTEM_CONSTRUCTOR_EXIT|[6]|<init>(Integer)
+07:19:31.19 (1471354052)|VARIABLE_ASSIGNMENT|[6]|this.taskIds|[]|0x433d5325
+07:19:31.19 (1471367921)|STATEMENT_EXECUTE|[7]
+07:19:31.19 (1471388119)|HEAP_ALLOCATE|[7]|Bytes:4
+07:19:31.19 (1471404372)|SYSTEM_CONSTRUCTOR_ENTRY|[7]|<init>()
+07:19:31.19 (1471423734)|SYSTEM_CONSTRUCTOR_EXIT|[7]|<init>()
+07:19:31.19 (1471448150)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1471468294)|VARIABLE_ASSIGNMENT|[7]|this.tasks|[]|0x433d5325
+07:19:31.19 (1471492781)|STATEMENT_EXECUTE|[10]
+07:19:31.19 (1471518991)|STATEMENT_EXECUTE|[31]
+07:19:31.19 (1471523226)|STATEMENT_EXECUTE|[32]
+07:19:31.19 (1471532438)|VARIABLE_SCOPE_BEGIN|[32]|unDel_errors|List<Database.UndeleteResult>|true|false
+07:19:31.19 (1471558165)|VARIABLE_ASSIGNMENT|[32]|unDel_errors|null|
+07:19:31.19 (1471633093)|SYSTEM_METHOD_ENTRY|[34]|List<ActionPlan__c>.iterator()
+07:19:31.19 (1472011592)|SYSTEM_METHOD_EXIT|[34]|List<ActionPlan__c>.iterator()
+07:19:31.19 (1472056787)|SYSTEM_METHOD_ENTRY|[34]|system.ListIterator.hasNext()
+07:19:31.19 (1472081608)|HEAP_ALLOCATE|[34]|Bytes:5
+07:19:31.19 (1472102301)|SYSTEM_METHOD_EXIT|[34]|system.ListIterator.hasNext()
+07:19:31.19 (1472140705)|VARIABLE_SCOPE_BEGIN|[34]|ap|ActionPlan__c|true|false
+07:19:31.19 (1473662958)|VARIABLE_ASSIGNMENT|[34]|ap|{"LastModifiedDate":"2018-08-20T14:19:31.000Z","IsDeleted":false,"Task_Status_Formula__c":"0 of 0 Completed","SkipWeekends__c":false,"Total__c":0,"Name":"word15355.0","SystemModstamp":"2018-08-20T14:19:31.000Z","OwnerId":"005f2000007Okk1AAC","CreatedById":"005f2000007Okk1AAC","CreatedDate":"2018-08-20T14:19:30.000Z","Account__c":"0014C00000JVQnGQAX","Completed__c":0,"Id":"a2P4C000000HMIwUAO","StartDate__c":"2018-08-20T00:00:00.000Z","LastModifiedById":"005f2000007Okk1AAC"}|0x4b83d8be
+07:19:31.19 (1473691422)|STATEMENT_EXECUTE|[34]
+07:19:31.19 (1473696036)|STATEMENT_EXECUTE|[35]
+07:19:31.19 (1473802464)|SYSTEM_METHOD_ENTRY|[35]|Set<Id>.add(Object)
+07:19:31.19 (1473838264)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1473870612)|SYSTEM_METHOD_EXIT|[35]|Set<Id>.add(Object)
+07:19:31.19 (1473896552)|SYSTEM_METHOD_ENTRY|[34]|system.ListIterator.hasNext()
+07:19:31.19 (1473917095)|HEAP_ALLOCATE|[34]|Bytes:5
+07:19:31.19 (1473945560)|SYSTEM_METHOD_EXIT|[34]|system.ListIterator.hasNext()
+07:19:31.19 (1473968098)|VARIABLE_ASSIGNMENT|[34]|ap|null|
+07:19:31.19 (1473979678)|STATEMENT_EXECUTE|[38]
+07:19:31.19 (1474004602)|HEAP_ALLOCATE|[38]|Bytes:4
+07:19:31.19 (1474027841)|HEAP_ALLOCATE|[38]|Bytes:97
+07:19:31.19 (1474050721)|HEAP_ALLOCATE|[38]|Bytes:4
+07:19:31.19 (1474130285)|HEAP_ALLOCATE|[38]|Bytes:8
+07:19:31.19 (1474153277)|HEAP_ALLOCATE|[38]|Bytes:8
+07:19:31.19 (1474678110)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT a.Id, a.Action_Plan__c FROM APTaskTemplate__c a WHERE a.Action_Plan__c = :tmpVar1 ALL ROWS
+07:19:31.19 (1479518942)|SOQL_EXECUTE_END|[38]|Rows:1
+07:19:31.19 (1479558261)|HEAP_ALLOCATE|[38]|Bytes:8
+07:19:31.19 (1479588394)|HEAP_ALLOCATE|[38]|Bytes:65
+07:19:31.19 (1479636490)|HEAP_ALLOCATE|[38]|Bytes:8
+07:19:31.19 (1479675141)|HEAP_ALLOCATE|[38]|Bytes:12
+07:19:31.19 (1479704474)|HEAP_ALLOCATE|[38]|Bytes:4
+07:19:31.19 (1479727951)|VARIABLE_SCOPE_BEGIN|[38]|map_APTasks|Map<Id,APTaskTemplate__c>|true|false
+07:19:31.19 (1479783849)|VARIABLE_ASSIGNMENT|[38]|map_APTasks|{"a2N4C000000I9AgUAK":{"Id":"a2N4C000000I9AgUAK","Action_Plan__c":"a2P4C000000HMIwUAO"}}|0x5c52009d
+07:19:31.19 (1479799412)|STATEMENT_EXECUTE|[43]
+07:19:31.19 (1479807329)|HEAP_ALLOCATE|[43]|Bytes:169
+07:19:31.19 (1479833879)|HEAP_ALLOCATE|[43]|Bytes:4
+07:19:31.19 (1479868424)|SYSTEM_METHOD_ENTRY|[45]|Map<Id,APTaskTemplate__c>.keySet()
+07:19:31.19 (1479937868)|HEAP_ALLOCATE|[45]|Bytes:26
+07:19:31.19 (1479958213)|SYSTEM_METHOD_EXIT|[45]|Map<Id,APTaskTemplate__c>.keySet()
+07:19:31.19 (1480009424)|HEAP_ALLOCATE|[43]|Bytes:8
+07:19:31.19 (1480035548)|HEAP_ALLOCATE|[43]|Bytes:8
+07:19:31.19 (1480699941)|SOQL_EXECUTE_BEGIN|[43]|Aggregations:0|SELECT a.Status, a.Id, a.ReminderDateTime, a.TaskTemplateId__c, a.Subject, a.isDeleted FROM Task a WHERE (a.TaskTemplateId__c = :tmpVar1 AND a.isDeleted = TRUE) ALL ROWS
+07:19:31.19 (1488306250)|SOQL_EXECUTE_END|[43]|Rows:0
+07:19:31.19 (1488343698)|HEAP_ALLOCATE|[43]|Bytes:4
+07:19:31.19 (1488359035)|HEAP_ALLOCATE|[43]|Bytes:0
+07:19:31.19 (1488395470)|HEAP_ALLOCATE|[43]|Bytes:4
+07:19:31.19 (1488413436)|VARIABLE_SCOPE_BEGIN|[43]|taskList|List<Task>|true|false
+07:19:31.19 (1488439414)|VARIABLE_ASSIGNMENT|[43]|taskList|[]|0x5389f1df
+07:19:31.19 (1488463309)|SYSTEM_METHOD_ENTRY|[47]|List<Task>.size()
+07:19:31.19 (1488493401)|SYSTEM_METHOD_EXIT|[47]|List<Task>.size()
+07:19:31.19 (1488504083)|STATEMENT_EXECUTE|[47]
+07:19:31.488 (1488518124)|CUMULATIVE_LIMIT_USAGE
+07:19:31.488 (1488518124)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 6 out of 100
+  Number of query rows: 27 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 8 out of 150
+  Number of DML rows: 8 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.488 (1488518124)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.488 (1488518124)|TESTING_LIMITS
+07:19:31.488 (1488518124)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.488 (1488518124)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.488 (1488518124)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1489583335)|CODE_UNIT_FINISHED|ActionPlanTrigger on ActionPlan trigger event AfterUndelete|__sfdc_trigger/ActionPlanTrigger
+07:19:31.19 (1497298671)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:ActionPlan:a2P4C000000HMIw
+07:19:31.19 (1497316129)|VALIDATION_RULE|03df2000000kIyX|Reference_Object_Can_not_be_null
+07:19:31.19 (1497582818)|VALIDATION_FORMULA|AND(  
+OR( Lead__c == null,  Lead__c == '' ),
+OR( Account__c == null,  Account__c == '' ),
+OR( Contact__c == null,  Contact__c == '' ),
+OR( Opportunity__c == null,  Opportunity__c == '' ),
+OR( Case__c == null,  Case__c == '' ),
+OR( Contract__c == null,  Contract__c == '' ),
+OR( Campaign__c == null,  Campaign__c == '' )
+ )|Account__c=0014C00000JVQnG , Opportunity__c=null , Lead__c=null , Contract__c=null , Contact__c=null , Case__c=null , Campaign__c=null
+07:19:31.19 (1497597868)|VALIDATION_PASS
+07:19:31.19 (1497793094)|CODE_UNIT_FINISHED|Validation:ActionPlan:a2P4C000000HMIw
+07:19:31.19 (1512582957)|DML_END|[48]
+07:19:31.19 (1512647844)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1512688990)|HEAP_ALLOCATE|[48]|Bytes:8
+07:19:31.19 (1512719744)|SYSTEM_METHOD_EXIT|[48]|Database.undelete(List<SObject>, Boolean)
+07:19:31.19 (1512910700)|VARIABLE_ASSIGNMENT|[48]|unDel_errors|"common.apex.runtime.impl.ScalarList@6b169180"|0x256b83a6
+07:19:31.512 (1512945601)|CUMULATIVE_LIMIT_USAGE
+07:19:31.512 (1512945601)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 6 out of 100
+  Number of query rows: 27 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 8 out of 150
+  Number of DML rows: 8 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.512 (1512945601)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.512 (1512945601)|TESTING_LIMITS
+07:19:31.512 (1512945601)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.512 (1512945601)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.512 (1512945601)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1514015661)|CODE_UNIT_FINISHED|AccountTrigger on Account trigger event AfterUndelete|__sfdc_trigger/AccountTrigger
+07:19:31.19 (1515484914)|DML_END|[63]
+07:19:31.19 (1515505018)|STATEMENT_EXECUTE|[64]
+07:19:31.19 (1515531683)|HEAP_ALLOCATE|[64]|Bytes:4
+07:19:31.19 (1515859914)|SOQL_EXECUTE_BEGIN|[64]|Aggregations:0|SELECT id FROM ActionPlan__c WHERE id = :tmpVar1
+07:19:31.19 (1518855795)|SOQL_EXECUTE_END|[64]|Rows:1
+07:19:31.19 (1518886506)|HEAP_ALLOCATE|[64]|Bytes:8
+07:19:31.19 (1518917158)|HEAP_ALLOCATE|[64]|Bytes:29
+07:19:31.19 (1518960225)|HEAP_ALLOCATE|[64]|Bytes:8
+07:19:31.19 (1519002736)|VARIABLE_ASSIGNMENT|[64]|lAp|[{"Id":"a2P4C000000HMIwUAO"}]|0x675e796f
+07:19:31.19 (1519012942)|STATEMENT_EXECUTE|[65]
+07:19:31.19 (1519033613)|SYSTEM_METHOD_ENTRY|[65]|List<ActionPlan__c>.size()
+07:19:31.19 (1519072178)|SYSTEM_METHOD_EXIT|[65]|List<ActionPlan__c>.size()
+07:19:31.19 (1519092874)|SYSTEM_METHOD_ENTRY|[65]|System.assert(Boolean)
+07:19:31.19 (1519102911)|SYSTEM_METHOD_EXIT|[65]|System.assert(Boolean)
+07:19:31.19 (1519108106)|STATEMENT_EXECUTE|[68]
+07:19:31.19 (1519125422)|HEAP_ALLOCATE|[68]|Bytes:8
+07:19:31.19 (1519141173)|HEAP_ALLOCATE|[68]|Bytes:8
+07:19:31.19 (1519149188)|DML_BEGIN|[68]|Op:Delete|Type:ActionPlan__c|Rows:1
+07:19:31.19 (1519183528)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1524849027)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORL|ActionPlanTrigger on ActionPlan trigger event BeforeDelete|__sfdc_trigger/ActionPlanTrigger
+07:19:31.19 (1524898206)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1524990857)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:31.19 (1525007561)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:31.19 (1525053116)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x4938ed68
+07:19:31.19 (1525114818)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+07:19:31.19 (1525129497)|VARIABLE_SCOPE_BEGIN|[1]|this|ActionPlanTrigger|true|false
+07:19:31.19 (1525160047)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x4938ed68
+07:19:31.19 (1525171260)|STATEMENT_EXECUTE|[1]
+07:19:31.19 (1525174265)|STATEMENT_EXECUTE|[4]
+07:19:31.19 (1525190925)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:31.19 (1525215907)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>(Integer)
+07:19:31.19 (1525230549)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>(Integer)
+07:19:31.19 (1525280330)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x4938ed68
+07:19:31.19 (1525289409)|STATEMENT_EXECUTE|[5]
+07:19:31.19 (1525298922)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:31.19 (1525312517)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>(Integer)
+07:19:31.19 (1525322206)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>(Integer)
+07:19:31.19 (1525349471)|VARIABLE_ASSIGNMENT|[5]|this.apttIds|[]|0x4938ed68
+07:19:31.19 (1525357927)|STATEMENT_EXECUTE|[6]
+07:19:31.19 (1525366762)|HEAP_ALLOCATE|[6]|Bytes:4
+07:19:31.19 (1525380089)|SYSTEM_CONSTRUCTOR_ENTRY|[6]|<init>(Integer)
+07:19:31.19 (1525389983)|SYSTEM_CONSTRUCTOR_EXIT|[6]|<init>(Integer)
+07:19:31.19 (1525416990)|VARIABLE_ASSIGNMENT|[6]|this.taskIds|[]|0x4938ed68
+07:19:31.19 (1525425261)|STATEMENT_EXECUTE|[7]
+07:19:31.19 (1525440645)|HEAP_ALLOCATE|[7]|Bytes:4
+07:19:31.19 (1525450629)|SYSTEM_CONSTRUCTOR_ENTRY|[7]|<init>()
+07:19:31.19 (1525458879)|SYSTEM_CONSTRUCTOR_EXIT|[7]|<init>()
+07:19:31.19 (1525473000)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1525485000)|VARIABLE_ASSIGNMENT|[7]|this.tasks|[]|0x4938ed68
+07:19:31.19 (1525501505)|STATEMENT_EXECUTE|[10]
+07:19:31.19 (1525507966)|STATEMENT_EXECUTE|[11]
+07:19:31.19 (1525514834)|STATEMENT_EXECUTE|[31]
+07:19:31.525 (1525522086)|CUMULATIVE_LIMIT_USAGE
+07:19:31.525 (1525522086)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 7 out of 100
+  Number of query rows: 28 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 9 out of 150
+  Number of DML rows: 9 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.525 (1525522086)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.525 (1525522086)|TESTING_LIMITS
+07:19:31.525 (1525522086)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.525 (1525522086)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.525 (1525522086)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1526481641)|CODE_UNIT_FINISHED|ActionPlanTrigger on ActionPlan trigger event BeforeDelete|__sfdc_trigger/ActionPlanTrigger
+07:19:31.19 (1593750486)|DML_END|[68]
+07:19:31.19 (1593798663)|STATEMENT_EXECUTE|[69]
+07:19:31.19 (1593845265)|HEAP_ALLOCATE|[69]|Bytes:8
+07:19:31.19 (1593870874)|HEAP_ALLOCATE|[69]|Bytes:8
+07:19:31.19 (1593884945)|DML_BEGIN|[69]|Op:Delete|Type:Account|Rows:1
+07:19:31.19 (1593958515)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.600 (1600382820)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1600567152)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1600777652)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1600865157)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1600921767)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1601118989)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1601209992)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1601254776)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1601390764)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1601453658)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1602057194)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1602166246)|ENTERING_MANAGED_PKG|rh2
+07:19:31.600 (1602440791)|ENTERING_MANAGED_PKG|rh2
+07:19:31.602 (1602639717)|CUMULATIVE_LIMIT_USAGE
+07:19:31.602 (1602639717)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 7 out of 100
+  Number of query rows: 28 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 10 out of 150
+  Number of DML rows: 10 out of 10000
+  Maximum CPU time: 65 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.602 (1602639717)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.602 (1602639717)|TESTING_LIMITS
+07:19:31.602 (1602639717)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.602 (1602639717)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.602 (1602639717)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1605173931)|CODE_UNIT_STARTED|[EXTERNAL]|01qf2000000kORI|AccountTrigger on Account trigger event BeforeDelete|__sfdc_trigger/AccountTrigger
+07:19:31.19 (1605208087)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1605246605)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:31.19 (1605257455)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:31.19 (1605305079)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x2fe44815
+07:19:31.19 (1605354028)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+07:19:31.19 (1605364385)|VARIABLE_SCOPE_BEGIN|[1]|this|AccountTrigger|true|false
+07:19:31.19 (1605385484)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x2fe44815
+07:19:31.19 (1605396668)|STATEMENT_EXECUTE|[1]
+07:19:31.19 (1605400017)|STATEMENT_EXECUTE|[3]
+07:19:31.19 (1605410804)|HEAP_ALLOCATE|[3]|Bytes:4
+07:19:31.19 (1605432036)|SYSTEM_CONSTRUCTOR_ENTRY|[3]|<init>(Integer)
+07:19:31.19 (1605444003)|SYSTEM_CONSTRUCTOR_EXIT|[3]|<init>(Integer)
+07:19:31.19 (1605481743)|VARIABLE_ASSIGNMENT|[3]|this.aIds|[]|0x2fe44815
+07:19:31.19 (1605490795)|STATEMENT_EXECUTE|[4]
+07:19:31.19 (1605500852)|HEAP_ALLOCATE|[4]|Bytes:4
+07:19:31.19 (1605510776)|SYSTEM_CONSTRUCTOR_ENTRY|[4]|<init>()
+07:19:31.19 (1605518537)|SYSTEM_CONSTRUCTOR_EXIT|[4]|<init>()
+07:19:31.19 (1605545143)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1605559782)|VARIABLE_ASSIGNMENT|[4]|this.apIds|[]|0x2fe44815
+07:19:31.19 (1605566999)|STATEMENT_EXECUTE|[5]
+07:19:31.19 (1605578085)|HEAP_ALLOCATE|[5]|Bytes:4
+07:19:31.19 (1605587966)|SYSTEM_CONSTRUCTOR_ENTRY|[5]|<init>()
+07:19:31.19 (1605595799)|SYSTEM_CONSTRUCTOR_EXIT|[5]|<init>()
+07:19:31.19 (1605608470)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1605620430)|VARIABLE_ASSIGNMENT|[5]|this.deletePermantently_apIds|[]|0x2fe44815
+07:19:31.19 (1605631188)|STATEMENT_EXECUTE|[8]
+07:19:31.19 (1605664084)|SYSTEM_METHOD_ENTRY|[9]|List<Account>.iterator()
+07:19:31.19 (1605677255)|SYSTEM_METHOD_EXIT|[9]|List<Account>.iterator()
+07:19:31.19 (1605687106)|SYSTEM_METHOD_ENTRY|[9]|system.ListIterator.hasNext()
+07:19:31.19 (1605697439)|HEAP_ALLOCATE|[9]|Bytes:5
+07:19:31.19 (1605706484)|SYSTEM_METHOD_EXIT|[9]|system.ListIterator.hasNext()
+07:19:31.19 (1605723804)|VARIABLE_SCOPE_BEGIN|[9]|a|Account|true|false
+07:19:31.19 (1606720791)|VARIABLE_ASSIGNMENT|[9]|a|{"LastModifiedDate":"2018-08-20T14:19:31.000Z","IsDeleted":false,"OpenOpportunities__c":0,"SystemModstamp":"2018-08-20T14:19:31.000Z","Name":"word55397.0","Data_Quality_Description__c":"Missing: Industry, R (36 more) ...","IsExcludedFromRealign":false,"OwnerId":"005f2000007Okk1AAC","OpenOpportunitiesGreater50k__c":0,"CreatedById":"005f2000007Okk1AAC","CreatedDate":"2018-08-20T14:19:30.000Z","Id":"0014C00000JVQnGQAX","Data_Quality_Score__c":0,"LastModifiedById":"005f2000007Okk1AAC"}|0x4bf7fac0
+07:19:31.19 (1606739331)|STATEMENT_EXECUTE|[9]
+07:19:31.19 (1606742029)|STATEMENT_EXECUTE|[10]
+07:19:31.19 (1606788696)|SYSTEM_METHOD_ENTRY|[10]|Set<Id>.add(Object)
+07:19:31.19 (1606801570)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1606816096)|SYSTEM_METHOD_EXIT|[10]|Set<Id>.add(Object)
+07:19:31.19 (1606833337)|SYSTEM_METHOD_ENTRY|[9]|system.ListIterator.hasNext()
+07:19:31.19 (1606845113)|HEAP_ALLOCATE|[9]|Bytes:5
+07:19:31.19 (1606854194)|SYSTEM_METHOD_EXIT|[9]|system.ListIterator.hasNext()
+07:19:31.19 (1606867944)|VARIABLE_ASSIGNMENT|[9]|a|null|
+07:19:31.19 (1606874677)|STATEMENT_EXECUTE|[14]
+07:19:31.19 (1606890275)|HEAP_ALLOCATE|[14]|Bytes:4
+07:19:31.19 (1606937854)|HEAP_ALLOCATE|[14]|Bytes:8
+07:19:31.19 (1606952147)|HEAP_ALLOCATE|[14]|Bytes:8
+07:19:31.19 (1607356659)|SOQL_EXECUTE_BEGIN|[14]|Aggregations:0|SELECT Id, Name, LastModifiedDate FROM ActionPlan__c WHERE (Account__c = :tmpVar1 AND isDeleted = TRUE) ALL ROWS
+07:19:31.19 (1611245358)|SOQL_EXECUTE_END|[14]|Rows:1
+07:19:31.19 (1611282410)|HEAP_ALLOCATE|[14]|Bytes:8
+07:19:31.19 (1611309634)|HEAP_ALLOCATE|[14]|Bytes:72
+07:19:31.19 (1611351492)|HEAP_ALLOCATE|[14]|Bytes:8
+07:19:31.19 (1611422008)|VARIABLE_ASSIGNMENT|[14]|this.deletePermantently_apIds|[{"Id":"a2P4C000000HMIwUAO","Name":"word15355.0","LastModifiedDate":"2018-08-20T14:19:32.000Z"}]|0x2fe44815
+07:19:31.19 (1611453951)|SYSTEM_METHOD_ENTRY|[16]|List<ActionPlan__c>.size()
+07:19:31.19 (1611468659)|SYSTEM_METHOD_EXIT|[16]|List<ActionPlan__c>.size()
+07:19:31.19 (1611479782)|STATEMENT_EXECUTE|[16]
+07:19:31.19 (1611483411)|STATEMENT_EXECUTE|[17]
+07:19:31.19 (1611537187)|SYSTEM_METHOD_ENTRY|[17]|Database.emptyRecycleBin(List<SObject>)
+07:19:31.19 (1611593034)|DML_BEGIN|[17]|Op:emptyRecycleBin|Type:ActionPlan__c|Rows:1
+07:19:31.19 (1618172757)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1618188990)|DML_END|[17]
+07:19:31.19 (1618209576)|SYSTEM_METHOD_EXIT|[17]|Database.emptyRecycleBin(List<SObject>)
+07:19:31.19 (1618242241)|HEAP_ALLOCATE|[21]|Bytes:4
+07:19:31.19 (1618788577)|SOQL_EXECUTE_BEGIN|[21]|Aggregations:1|SELECT (SELECT Id, isDeleted FROM Action_Plans__r) FROM Account a 
+07:19:31.19 (1624316806)|SOQL_EXECUTE_END|[21]|Rows:1
+07:19:31.19 (1624348217)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:19:31.19 (1624397432)|SYSTEM_METHOD_ENTRY|[21]|Database.QueryLocator.iterator()
+07:19:31.19 (1624566866)|HEAP_ALLOCATE|[21]|Bytes:28
+07:19:31.19 (1624605659)|HEAP_ALLOCATE|[21]|Bytes:8
+07:19:31.19 (1624626028)|HEAP_ALLOCATE|[21]|Bytes:8
+07:19:31.19 (1624631295)|HEAP_ALLOCATE|[21]|Bytes:8
+07:19:31.19 (1624642278)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+07:19:31.19 (1624699297)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x337525fb
+07:19:31.19 (1624710767)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+07:19:31.19 (1624742869)|VARIABLE_ASSIGNMENT|[15]|values|[{"Id":"0014C00000JVQnGQAX"}]|0x3769a172
+07:19:31.19 (1624750743)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+07:19:31.19 (1624769537)|VARIABLE_ASSIGNMENT|[15]|ql|{"query":"SELECT (SELECT Id, i (65 more) ..."}|0x6d19b1ff
+07:19:31.19 (1624776396)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+07:19:31.19 (1624789077)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+07:19:31.19 (1624794683)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+07:19:31.19 (1624805059)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|49970
+07:19:31.19 (1624903127)|HEAP_ALLOCATE|[21]|Bytes:28
+07:19:31.19 (1624951934)|SYSTEM_METHOD_EXIT|[21]|Database.QueryLocator.iterator()
+07:19:31.19 (1624976259)|METHOD_ENTRY|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:31.19 (1625037815)|METHOD_EXIT|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:31.19 (1625050665)|METHOD_ENTRY|[21]||Database.QueryLocatorIterator.next()
+07:19:31.19 (1625148481)|METHOD_EXIT|[21]||Database.QueryLocatorIterator.next()
+07:19:31.19 (1625162599)|VARIABLE_SCOPE_BEGIN|[21]|a|Account|true|false
+07:19:31.19 (1625182477)|VARIABLE_ASSIGNMENT|[21]|a|{"Id":"0014C00000JVQnGQAX"}|0x4cf93669
+07:19:31.19 (1625191254)|STATEMENT_EXECUTE|[21]
+07:19:31.19 (1625220385)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:19:31.19 (1625250147)|HEAP_ALLOCATE|[22]|Bytes:4
+07:19:31.19 (1625268932)|SYSTEM_METHOD_ENTRY|[22]|List<ActionPlan__c>.size()
+07:19:31.19 (1625279517)|SYSTEM_METHOD_EXIT|[22]|List<ActionPlan__c>.size()
+07:19:31.19 (1625287311)|STATEMENT_EXECUTE|[22]
+07:19:31.19 (1625294750)|METHOD_ENTRY|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:31.19 (1625324376)|METHOD_EXIT|[21]||Database.QueryLocatorIterator.hasNext()
+07:19:31.19 (1625339179)|VARIABLE_ASSIGNMENT|[21]|a|null|
+07:19:31.19 (1625364897)|SYSTEM_METHOD_ENTRY|[28]|List<String>.size()
+07:19:31.19 (1625374847)|SYSTEM_METHOD_EXIT|[28]|List<String>.size()
+07:19:31.19 (1625381257)|STATEMENT_EXECUTE|[28]
+07:19:31.19 (1625390277)|STATEMENT_EXECUTE|[35]
+07:19:31.625 (1625400170)|CUMULATIVE_LIMIT_USAGE
+07:19:31.625 (1625400170)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 9 out of 100
+  Number of query rows: 30 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 11 out of 150
+  Number of DML rows: 11 out of 10000
+  Maximum CPU time: 80 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.625 (1625400170)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.625 (1625400170)|TESTING_LIMITS
+07:19:31.625 (1625400170)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.625 (1625400170)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.625 (1625400170)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1626430437)|CODE_UNIT_FINISHED|AccountTrigger on Account trigger event BeforeDelete|__sfdc_trigger/AccountTrigger
+07:19:31.708 (1708258057)|ENTERING_MANAGED_PKG|rh2
+07:19:31.708 (1708468187)|ENTERING_MANAGED_PKG|rh2
+07:19:31.708 (1708679076)|ENTERING_MANAGED_PKG|rh2
+07:19:31.708 (1709742784)|ENTERING_MANAGED_PKG|rh2
+07:19:31.710 (1710314789)|CUMULATIVE_LIMIT_USAGE
+07:19:31.710 (1710314789)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 9 out of 100
+  Number of query rows: 30 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 11 out of 150
+  Number of DML rows: 11 out of 10000
+  Maximum CPU time: 80 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.710 (1710314789)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.710 (1710314789)|TESTING_LIMITS
+07:19:31.710 (1710314789)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.710 (1710314789)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.710 (1710314789)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1712368807)|DML_END|[69]
+07:19:31.19 (1712392857)|STATEMENT_EXECUTE|[70]
+07:19:31.19 (1712413553)|HEAP_ALLOCATE|[70]|Bytes:4
+07:19:31.19 (1712870664)|SOQL_EXECUTE_BEGIN|[70]|Aggregations:0|SELECT Id, Name, LastModifiedDate FROM ActionPlan__c WHERE (Account__c = :tmpVar1 AND isDeleted = TRUE) ALL ROWS
+07:19:31.19 (1716222587)|SOQL_EXECUTE_END|[70]|Rows:0
+07:19:31.19 (1716256707)|HEAP_ALLOCATE|[70]|Bytes:4
+07:19:31.19 (1716277410)|HEAP_ALLOCATE|[70]|Bytes:0
+07:19:31.19 (1716318195)|HEAP_ALLOCATE|[70]|Bytes:4
+07:19:31.19 (1716365234)|VARIABLE_ASSIGNMENT|[70]|lAp|[]|0x7e46ef6f
+07:19:31.19 (1716382796)|STATEMENT_EXECUTE|[71]
+07:19:31.19 (1716403898)|SYSTEM_METHOD_ENTRY|[71]|List<ActionPlan__c>.size()
+07:19:31.19 (1716437276)|SYSTEM_METHOD_EXIT|[71]|List<ActionPlan__c>.size()
+07:19:31.19 (1716459919)|SYSTEM_METHOD_ENTRY|[71]|System.assert(Boolean)
+07:19:31.19 (1716470476)|SYSTEM_METHOD_EXIT|[71]|System.assert(Boolean)
+07:19:31.19 (1716478510)|SYSTEM_MODE_EXIT|false
+07:19:31.716 (1716494882)|CUMULATIVE_LIMIT_USAGE
+07:19:31.716 (1716494882)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 10 out of 100
+  Number of query rows: 30 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 11 out of 150
+  Number of DML rows: 11 out of 10000
+  Maximum CPU time: 80 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.716 (1716494882)|LIMIT_USAGE_FOR_NS|MC4SF|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.716 (1716494882)|TESTING_LIMITS
+07:19:31.716 (1716494882)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 99 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.716 (1716494882)|LIMIT_USAGE_FOR_NS|rh2|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:19:31.716 (1716494882)|CUMULATIVE_LIMIT_USAGE_END
+
+07:19:31.19 (1716541404)|CODE_UNIT_FINISHED|ActionPlanObjectTriggerTest.testAccountTrigger()
+07:19:31.19 (1717866800)|EXECUTION_FINISHED
+07:19:34.693 (4693424765)|USER_INFO|[EXTERNAL]|005f2000007Okk1|dev@pee-4.dev.welkinsuite.com.sb7onlyqa|Pacific Standard Time|GMT-07:00
+07:19:34.693 (4693460195)|EXECUTION_STARTED
+07:19:34.693 (4693465683)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+07:19:34.693 (4693476007)|DUPLICATE_DETECTION_BEGIN
+07:19:34.693 (4693855379)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bmf2000000m3eB|DuplicateRuleName:Standard Account duplicate rule|DmlType:INSERT
+07:19:34.693 (4707406727)|DUPLICATE_DETECTION_END
+07:19:34.693 (4707421016)|CODE_UNIT_FINISHED|DuplicateDetector
+07:19:34.693 (4708473220)|EXECUTION_FINISHED
+07:19:34.709 (4709548944)|USER_INFO|[EXTERNAL]|005f2000007Okk1|dev@pee-4.dev.welkinsuite.com.sb7onlyqa|Pacific Standard Time|GMT-07:00
+07:19:34.709 (4709571613)|EXECUTION_STARTED
+07:19:34.709 (4709575817)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+07:19:34.709 (4709584993)|DUPLICATE_DETECTION_BEGIN
+07:19:34.709 (4709632272)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bmf2000000m3eB|DuplicateRuleName:Standard Account duplicate rule|DmlType:UPDATE
+07:19:34.709 (4719127480)|DUPLICATE_DETECTION_END
+07:19:34.709 (4719139673)|CODE_UNIT_FINISHED|DuplicateDetector
+07:19:34.709 (4720037138)|EXECUTION_FINISHED

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestsResultsCache
+    LastClearTime="0001-01-01T00:00:00">
+    <TestClassesCache>
+        <TestClassCache>
+            <TestClassId>01pf2000000nvoLAAQ</TestClassId>
+            <TestQueueId>7094C000000BaiwQAC</TestQueueId>
+            <TestMethodsCache>
+                <TestMethodCache>
+                    <ApexLogId>07L4C000007MNUkUAO</ApexLogId>
+                    <Name>runBatchAccount</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+            </TestMethodsCache>
+        </TestClassCache>
+        <TestClassCache>
+            <TestClassId>01pf2000000nvoFAAQ</TestClassId>
+            <TestQueueId>7094C000000Baj5QAC</TestQueueId>
+            <TestMethodsCache>
+                <TestMethodCache>
+                    <ApexLogId>07L4C000007MNUBUA4</ApexLogId>
+                    <Name>testAccountTrigger</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+            </TestMethodsCache>
+        </TestClassCache>
+        <TestClassCache>
+            <TestClassId>01pf2000000nvoFAAQ</TestClassId>
+            <TestQueueId>7094C000000Baj0QAC</TestQueueId>
+            <TestMethodsCache>
+                <TestMethodCache>
+                    <Name>testOpportunityTrigger</Name>
+                    <Message>System.AssertException: Assertion Failed: Pre deploy test failed, This may be because of custom validation rules in your Org. You can check ignore apex errors or temporarily deactivate your validation rules for Opportunitys and try again.</Message>
+                    <StackTrace>Class.ActionPlansTestUtilities.createNewOpportunity: line 260, column 1
+Class.ActionPlansTestUtilities.createNewActionPlan: line 298, column 1
+Class.ActionPlanObjectTriggerTest.testOpportunityTrigger: line 262, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>testAccountTrigger</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>testCampaignTrigger</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>testCaseTrigger</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>testContactTrigger</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>testContractTrigger</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>testLeadTrigger</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+            </TestMethodsCache>
+        </TestClassCache>
+    </TestClassesCache>
+</TestsResultsCache>
